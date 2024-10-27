@@ -1,12 +1,8 @@
-import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 
 const CoffeeProductionLineChartSVG = () => {
-  
-  function onMouseEnter(){
-    
-  }
-  
+  const LineChart = '/images/coffee_yearly_production_line_chart.png';
+
   return (
     <motion.div
       style={{
@@ -14,10 +10,15 @@ const CoffeeProductionLineChartSVG = () => {
         flexDirection: 'column',
         paddingTop: '50px',
         position: 'sticky',
-        top: '100px'
-      }}>
-<h5 style={{position:'absolute',left:'30%',color:'black',backgroundColor:'gold',padding:'5px',borderRadius:'10px'}}>Viet Nam's Remarkable Rise</h5>
-<svg width="960" height="600" id="coffee-production-line-chart">
+        top: '100px',
+      }}  
+      initial={{scale: 0}}
+      whileInView={{scale: 0.9}}   
+      viewport={{ once: true }}                
+      transition={{ duration: 1}}>
+        <div class="image-container">
+<img src={process.env.PUBLIC_URL + LineChart} style={{zIndex:'-1'}}></img></div>
+{/* <svg width="960" height="600" id="coffee-production-line-chart">
   <g fill="none" font-family="sans-serif" font-size="10" text-anchor="middle">
     <path stroke="black" d="M50 506v-6h800v6" class="domain"/>
     <g class="tick">
@@ -350,7 +351,7 @@ const CoffeeProductionLineChartSVG = () => {
   <circle cx="640" cy="550" r="5" fill="#9467bd"/>
   <text x="656" y="550" alignment-baseline="middle" font-size="1.1em">Ethiopia</text>
   <path stroke="gold" stroke-dasharray="5,5" stroke-width="5" d="M278.333 0v500"/>
-</svg>
+</svg> */}
 
     </motion.div>
   )

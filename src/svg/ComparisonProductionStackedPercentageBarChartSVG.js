@@ -1,11 +1,20 @@
-const ComparisonProductionStackedPercentageBarChartSVG = () => {
+import { motion } from 'framer-motion';
+import React, { useRef } from 'react';
 
+const ComparisonProductionStackedPercentageBarChartSVG = () => {
+    
     return (
-        <div style={{ position: 'relative', right: "10%" }}>
+        <motion.div style={{position:'relative', right:'15%'}}
+        initial={{scale: 0}}
+        whileInView={{scale: 0.95}}   
+        viewport={{ once: true }}                
+        transition={{ duration: 1}}>
+
             <div className="percentage-bar-chart-label">
                 <span>Coffee</span>
                 <span>Tea</span>
             </div>
+
             <svg width="800" height="600">
                 <g fill="none" font-family="sans-serif" font-size="10" text-anchor="middle">
                     <path stroke="currentColor" d="M50 586v-6h730v6" class="domain" />
@@ -177,7 +186,7 @@ const ComparisonProductionStackedPercentageBarChartSVG = () => {
                         <text x="-9" fill="currentColor" dy=".32em" transform="translate(50 39.344)">1990</text>
                     </g>
                 </g>
-                <g fill="#522A08">
+                <g fill="#522A08" id="percentage-bar-chart-values-coffee">
                     <path d="M50 561.679h197.642v17.955H50z" class="bar coffee 27" />
                     <path d="M50 543.358h207.248v17.955H50zM50 525.037h206.891v17.955H50z" class="bar coffee 28" />
                     <path d="M50 506.716h211.531v17.955H50zM50 488.394h208.381v17.955H50z" class="bar coffee 29" />
@@ -233,7 +242,7 @@ const ComparisonProductionStackedPercentageBarChartSVG = () => {
             </svg>
             <h4 style={{ textAlign: 'center',marginTop:'5px'}}>Percentage Stacked Bar Chart of Coffee and Tea Production between 1990 to 2019</h4>
 
-        </div>
+        </motion.div>
     )
 }
 export default ComparisonProductionStackedPercentageBarChartSVG;

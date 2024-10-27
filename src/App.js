@@ -42,204 +42,283 @@ function App() {
           style={{ height: 'max-content', position: 'relative' }}>
 
           <motion.h1
-            style={{ position: 'sticky', top: '50px' }}
+            style={{ position: 'sticky', top: '50px', color: currentStepIndex >= 7 ? 'brown' : 'rgb(82, 42, 8)' }}
             initial={{ scale: 0 }}
             whileInView={{ scale: 0.5 }}
             viewport={{ once: true }}
             transition={{ duration: .3 }}>
             #Production</motion.h1>
           <motion.span
-            style={{ position: 'sticky', top: '85px' }}
-
+            style={{ position: 'sticky', top: '85px', color: currentStepIndex >= 7 ? 'brown' : 'rgb(82, 42, 8)' }} // Change color based on the index
             initial={{ scale: 0 }}
             whileInView={{ scale: 1.2 }}
             viewport={{ once: true }}
-            transition={{ duration: .3 }}>
-            ( of Coffee )</motion.span>
-          <CoffeeProductionChoroplethSVG />
+            transition={{ duration: 0.3 }}
+          >
+            {currentStepIndex < 7 ? '( ACROSS THE WORLD 🌎 )' : '( COMPARISON )'}
+          </motion.span>
 
-          <Scrollama onStepEnter={onStepEnter} offset={0.6} >
+          {currentStepIndex < 4 ? (
+            <CoffeeProductionChoroplethSVG />
+          ) : currentStepIndex < 7 ? (
+            <TeaProductionChoroplethSVG />
+          ) : currentStepIndex < 10 ? (
+            <div style={{ display: 'flex', flexDirection: 'row', transform: 'scale(0.6)', gap: '4em', position: 'sticky', top: '100px' }}>
+              <CoffeeProductionChoroplethSVG />
+              <TeaProductionChoroplethSVG />
+            </div>
+          ) : currentStepIndex < 12 ? (
+            <div className='two-items' style={{ position: 'sticky', top: '130px', color: 'brown' }} >
+              <ComparisonProductionPieSVG />
+              <ComparisonProductionStackedPercentageBarChartSVG />
+            </div>
+          ) : currentStepIndex < 13 ? (
+            <CoffeeProductionLineChartSVG />
+          ) : (
+            <TeaProductionLineChartSVG />
+          )
+
+
+          }
+
+          <Scrollama onStepEnter={onStepEnter} offset={0.6}>
             <Step data={1} key={1}>
               <div
                 className='comment coffee'
                 style={{
-                  position: 'absolute',
                   zIndex: 999,
                   opacity: currentStepIndex === 1 ? 1 : 0.2,
-                  top: '50vh',
-                }}><p>This <b style={{ fontSize: '1.5em' }}>Choropleth map</b> shows the <b>total aggregated
-                  production of coffee</b> by country from 1990 to 2019. <br></br> (in Millions. Units in Tonnes) </p></div>
+                  marginTop: '50px',
+                  marginBottom: '500px',
+                }}
+              >
+                <p>
+                  This <b style={{ fontSize: '1.5em' }}>Choropleth map</b> shows the <b>total aggregated production of Coffee</b> by country from 1990 to 2019. <br /> (in Millions. Units in Tonnes)
+                </p>
+              </div>
             </Step>
+
             <Step data={2} key={2}>
               <div
                 className='comment coffee'
                 style={{
                   zIndex: 999,
-
                   opacity: currentStepIndex === 2 ? 1 : 0.2,
-                  top: '50vh',
-                  marginBlock: '300px'
-
-                }}>
-                <p> <b style={{ fontSize: '2em' }}>Brazil</b> is the dominant producer, accounting for almost 40% of the world’s coffee production.</p></div>
-            </Step>
-            <Step data={3} key={3}>
-              <div
-                className='comment coffee'
-
-                style={{
-                  zIndex: 999,
-                  opacity: currentStepIndex === 3 ? 1 : 0.2,
-                  marginTop: '300px',
                   marginBottom: '500px',
-                  backgroundColor: 'rgba(250, 249, 246,1.0)'
-                }}>
-
-                <h4 style={{ color: 'black', textAlign: 'center' }}>Yearly Production of Coffee by Top 5 Countries in the World (in Tonnes)</h4>
-                <CoffeeProductionLineChartSVG></CoffeeProductionLineChartSVG>
+                }}
+              >
+                <p>
+                  From a quick glance, <b style={{ fontSize: '2em' }}>Brazil</b> stands as the dominant producer of coffee globally, <br></br> accounting for an impressive nearly <b style={{ fontSize: '2em' }}>40%</b> of the world's total coffee production.
+                </p>
               </div>
             </Step>
-          </Scrollama>
-        </div>
-        <div className="introduction-production tea"
 
-          style={{ height: 'max-content', position: 'relative' }}>
-
-          <motion.h1
-            style={{ position: 'sticky', top: '50px' }}
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 0.5 }}
-            viewport={{ once: true }}
-            transition={{ duration: .3 }}>
-            #Production</motion.h1>
-          <motion.span
-            style={{ position: 'sticky', top: '85px' }}
-
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 1.2 }}
-            viewport={{ once: true }}
-            transition={{ duration: .3 }}>
-            ( of Tea )</motion.span>
-          <TeaProductionChoroplethSVG />
-
-          <Scrollama onStepEnter={onStepEnter} offset={0.6} >
-            <Step data={1} key={1}>
-              <div
-                className='comment tea'
-                style={{
-                  position: 'absolute',
-                  zIndex: 999,
-                  opacity: currentStepIndex === 1 ? 1 : 0.2,
-                  top: '50vh',
-                }}><p>This <b style={{ fontSize: '1.5em' }}>Choropleth map</b> shows the <b>total aggregated
-                  production of Tea</b> by country from 1990 to 2019. <br></br> (in Millions. Units in Tonnes) </p></div>
-            </Step>
-            <Step data={2} key={2}>
+            <Step data={4} key={4}>
               <div
                 className='comment tea'
                 style={{
                   zIndex: 999,
-
-                  opacity: currentStepIndex === 2 ? 1 : 0.2,
-                  top: '50vh',
-                  marginBlock: '300px'
-
-                }}>
-                <p> <b style={{ fontSize: '2em' }}>China</b> and <b style={{ fontSize: '2em' }}>India</b> are the dominant producers.</p></div>
-            </Step>
-            <Step data={3} key={3}>
-              <div
-                className='comment tea'
-
-                style={{
-                  zIndex: 999,
-                  opacity: currentStepIndex === 3 ? 1 : 0.2,
-                  marginTop: '300px',
+                  opacity: currentStepIndex === 4 ? 1 : 0.2,
                   marginBottom: '500px',
-                  backgroundColor: 'rgba(250, 249, 246,1.0)'
-                }}>
-
-                <h4 style={{ color: 'black', textAlign: 'center' }}>Yearly Production of Tea by Top 5 Countries in the World (in Tonnes)</h4>
-                <TeaProductionLineChartSVG></TeaProductionLineChartSVG>
+                }}
+              >
+                <p>
+                  This <b style={{ fontSize: '1.5em' }}>Choropleth map</b> shows the <b>total aggregated production of Tea</b> by country from 1990 to 2019. <br /> (in Millions. Units in Tonnes)
+                </p>
               </div>
             </Step>
-          </Scrollama>
 
-          {/*              <div
+            <Step data={5} key={5}>
+              <div
                 className='comment tea'
-
                 style={{
                   zIndex: 999,
-                  opacity: currentStepIndexSecond === 1 ? 1 : 0.2,
-                  marginTop: '300px',
-                  marginBottom: '500px'
-                }}>
-                <p>Interesting finding: <b>Tea</b> is primarily associated with <b>Eastern</b> countries, while <b>Coffee production</b> is concentrated in <b>Western Hemisphere</b> countries.</p>
-              </div> */}
-        </div>
-        <div className="introduction-production comparison"
-          style={{ height: 'max-content', position: 'relative' }}>
+                  opacity: currentStepIndex === 5 ? 1 : 0.2,
+                  marginBottom: '500px',
+                }}
+              >
+                <p>
+                  From a quick glance, <b style={{ fontSize: '2em' }}>China</b> and <b style={{ fontSize: '2em' }}>India</b> are the dominant producers.
+                </p>
+              </div>
+            </Step>
 
-          <motion.h1
-
-            style={{ position: 'sticky', top: '50px', color: 'brown' }}
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 0.5 }}
-            viewport={{ once: true }}
-            transition={{ duration: .3 }}>
-            #Production</motion.h1>
-          <motion.span
-            style={{ position: 'sticky', top: '85px', color: 'brown' }}
-
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 1.2 }}
-            viewport={{ once: true }}
-            transition={{ duration: .3 }}>
-            ( Comparison between Coffee and Tea )</motion.span>
-
-          <div className='two-items' style={{ position: 'sticky', top: '130px', color: 'brown' }} >
-            <ComparisonProductionPieSVG />
-            <ComparisonProductionStackedPercentageBarChartSVG />
-          </div>
-
-          <Scrollama onStepEnter={onStepEnterSecond} offset={0.6}>
-
-            <Step data={1} key={1} >
-              <motion.div
+            <Step data={7} key={7}>
+              <div style={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                width: '70vw',
+                marginTop: '50px',
+                marginBottom: '400px',
+              }}>
+                <div
+                  className='comment coffee'
+                  style={{
+                    zIndex: 999,
+                    opacity: currentStepIndex === 7 ? 1 : 0.2,
+                  }}
+                >
+                  <p>
+                    <b style={{ fontSize: '1.1em', textDecoration: 'underline' }}>Top 5 Producers of Coffee:</b>
+                    <ol>
+                      <li><b>Brazil (75 Million Tonnes)</b></li>
+                      <li>Vietnam (29 Million Tonnes)</li>
+                      <li>Colombia (22 Million Tonnes)</li>
+                      <li>Indonesia (15 Million Tonnes)</li>
+                      <li>Ethiopia (9 Million Tonnes)</li>
+                    </ol>
+                  </p>
+                </div>
+                <div
+                  className='comment tea'
+                  style={{
+                    zIndex: 999,
+                    opacity: currentStepIndex === 7 ? 1 : 0.2,
+                  }}
+                >
+                  <p>
+                    <b style={{ fontSize: '1.1em', textDecoration: 'underline' }}>Top 5 Producers of Tea:</b>
+                    <ol>
+                      <li><b>China (159 Million Tonnes)</b></li>
+                      <li><b>India (123 Million Tonnes)</b></li>
+                      <li>Kenya (41 Million Tonnes)</li>
+                      <li>Sri Lanka (37 Million Tonnes)</li>
+                      <li>Turkey (30 Million Tonnes)</li>
+                    </ol>
+                  </p>
+                </div>
+              </div>
+            </Step>
+            <Step data={8} key={8}>
+              <div
+                className='comment comparison'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 8 ? 1 : 0.2,
+                  marginBottom: '500px',
+                  color: 'rgb(82, 42, 8)'
+                }}
+              >
+                <p>
+                  <h2>Interestingly,</h2> production of <b style={{ fontSize: '1.3em' }}>Tea</b> is concentrated in <b style={{ fontSize: '1.3em' }}>Eastern</b> countries, <br></br>while production of <b style={{ fontSize: '1.3em' }}>Coffee</b> is concentrated in <b style={{ fontSize: '1.3em' }}>Western Hemisphere</b> countries.
+                </p>
+              </div>
+            </Step>
+            <Step data={9} key={9}>
+              <div
+                className='comment comparison'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 9 ? 1 : 0.2,
+                  marginBottom: '500px',
+                  color: 'rgb(82, 42, 8)'
+                }}
+              >
+                <p>
+                  There is a noticeable <b style={{ fontSize: '1.3em' }}>difference in production volumes</b> as well.
+                </p>
+              </div>
+            </Step>
+            <Step data={10} key={10}>
+              <div
                 className='comment comparison position-left'
                 style={{
                   zIndex: 999,
-                  opacity: currentStepIndexSecond === 1 ? 1 : 0.2,
-                  marginTop: '300px',
-                  marginBottom: '500px',
-                  width:'550px'
-                }}>
-                <p style={{ color: 'brown' }}><b style={{ color: 'black' }}>Other than in 1990, with Coffee's impressive domination in production relative to tea</b>, <br></br> Coffee production has consistently remained below tea production every year, <br></br>
+                  opacity: currentStepIndex === 10 ? 1 : 0.2,
+                  marginBottom: '900px',
+                  color: 'rgb(82, 42, 8)',
+                  width: '400px',
+                }}
+              >
+                <p><b>Other than in 1990,</b><br></br> Coffee production has consistently remained below tea production every year, <br></br>
                   with its share decreasing over time, but overall <b>maintaining a consistent 2:3 production ratio in favor of tea.</b></p>
-              </motion.div>
-            </Step>
-            <Step Step={2} key={2} >
-              <div
-                className='comment tea'
-
-                style={{
-                  zIndex: 999,
-                  opacity: currentStepIndex === 2 ? 1 : 0.2,
-                  marginBlock: '300px'
-                }}>
-                <p></p>
               </div>
             </Step>
-
+            <Step data={10} key={10}>
+              <div
+                className='comment comparison position-left'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 10 ? 1 : 0.2,
+                  marginBottom: '900px',
+                  color: 'rgb(82, 42, 8)',
+                  width: '400px',
+                }}
+              >
+                <p>The disparity in production volumes may be attributed to the differing cultivation challenges associated with coffee and tea.
+                  Coffee beans require more specific growing conditions and meticulous care, while tea plants are generally more resilient and easier to cultivate. <br></br>
+                  This fundamental difference in agricultural demands could explain why tea consistently outpaces coffee in overall production.</p>
+              </div>
+            </Step>
+            <Step data={11} key={11}>
+              <div
+                className='comment comparison'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 11 ? 1 : 0.2,
+                  marginBottom: '900px',
+                  color: 'rgb(82, 42, 8)',
+                  width: '400px',
+                }}
+              >
+                <p>Despite their differences, both coffee and tea boast <b>rich histories of competition in their production.</b></p>
+              </div>
+            </Step>
+            <Step data={12} key={12}>
+              <div
+                className='comment comparison'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 12 ? 1 : 0.2,
+                  marginBottom: '900px',
+                  color: 'rgb(82, 42, 8)',
+                  width: '400px',
+                }}
+              >
+                <p><b style={{ fontSize: '1.3em' }}>Vietnam</b> ranked 5th in coffee production in 1990 but swiftly gained momentum, experiencing a remarkable surge in output from 1998.<br></br>
+                  <b style={{ fontSize: '1.3em' }}>It soared to 2nd place</b> and has maintained this rank with steady annual increases in production from then on.</p>
+              </div>
+            </Step>
+            <Step data={13} key={13}>
+              <div
+                className='comment comparison'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 13 ? 1 : 0.2,
+                  marginBottom: '900px',
+                  color: 'rgb(82, 42, 8)',
+                  width: '400px',
+                }}
+              >
+                <p>Meanwhile, <b style={{ fontSize: '1.3em' }}>China</b> and <b style={{ fontSize: '1.3em' }}>India</b> were in close competition until 2004,
+                  when China's production volume experienced a significant surge, allowing it to pull ahead of India. <br></br>This marked a pivotal shift, with both countries consistently standing out in production levels compared
+                  to their peers – Kenya, Sri Lanka, and Turkey.</p>
+              </div>
+            </Step>
+            <Step data={14} key={14}>
+              <div
+                className='comment question'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 14 ? 1 : 0.2,
+                  marginBottom: '900px',
+                  width: '400px',
+                }}
+              >
+                <p><i>With a greater understanding of coffee and tea's global production setup,<br></br> <b style={{ fontSize: '1.2em' }}>how do coffee and tea travel from producer countries to the rest of the world?</b></i></p>
+              </div>
+            </Step>
           </Scrollama>
         </div>
-        {/* # Trade */}
+
+
         <div className="introduction-trade">
           <h1 className="introduction-trade-h1">#Trade</h1>
-          <p>( IMPORTS, EXPORTS, RE-EXPORTS. Are top producers also the top exporters? Who are the top importers?)</p>
+          <p>( IMPORTS, EXPORTS )</p>
         </div>
-        
-        </ReactLenis>
+
+      </ReactLenis>
     </main>
   );
 };
