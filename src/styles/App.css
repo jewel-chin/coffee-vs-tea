@@ -1,0 +1,165 @@
+main {
+  background-color: #FAF9F6;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.progress-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: brown;
+  transform-origin: 0%;
+  z-index: 1000;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 105vh;
+}
+
+.introduction>div h1 {
+  display: inline-block;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 7em;
+  letter-spacing: -10px;
+  font-weight: 300;
+  line-height: 0px;
+}
+
+.introduction span {
+  font-style: italic;
+}
+
+.coffee-h1 {
+  color: rgb(82, 42, 8);
+}
+
+.tea-h1 {
+  color: rgb(118, 135, 49);
+}
+
+.versus-h1 {
+  font-style: normal;
+}
+
+.coffee-h1::before {
+  content: "☕";
+  padding-right: 0.3em;
+  font-style: normal;
+  position: relative;
+  top: 10px;
+}
+
+.tea-h1::after {
+  content: "🍵";
+  padding-left: 0.4em;
+  font-size: 0.8em;
+  font-style: normal;
+}
+
+
+.introduction-production,.introduction-trade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 105vh;
+  width: 100%;
+  background-color: beige;
+
+}
+
+.introduction-production-h1::after {
+  content: "🔨";
+  padding-left: 0.4em;
+  font-size: 0.8em;
+  font-style: normal;
+}
+
+.introduction-production.coffee {
+  position: sticky;
+  color: rgb(82, 42, 8);
+
+}
+
+.introduction-production.tea {
+  position: sticky;
+  color: rgb(76, 86, 36);
+}
+
+.introduction-production.coffee h1 {
+  margin-bottom: 0.3em;
+  transform: scale(0.5);
+}
+
+.introduction-trade{
+  background-color: rgba(248, 220, 111, 0.6);
+}
+.introduction-trade-h1::after {
+  content: "🤝";
+  padding-left: 0.4em;
+  font-size: 0.8em;
+  font-style: normal;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  justify-content: start;
+  text-align: center;
+}
+
+.sticky {
+  position: sticky;
+}
+
+
+.comment {
+  padding: 0.5em;
+  border-radius: 1em;
+  color: #FAF9F6;
+}
+
+.comment.coffee {
+  background-color: rgba(82, 42, 8, 0.8);
+
+}
+
+.comment.tea {
+  background-color: rgba(118, 135, 49, 0.9);
+
+}
+
+.comment.comparison {
+  color:black;
+  background-color: rgba(250, 249, 246, 0.9);
+}
+
+p {
+  text-align: center;
+}
+
+.two-items {
+  display: flex;
+  flex-direction: row;
+}
+.position-left{
+  position: relative;
+  right:400px;
+}

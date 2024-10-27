@@ -1,0 +1,25 @@
+/* CoffeeProductionChoroplethSVG */
+
+#choropleth .country:hover{
+    opacity: 0.8;
+  }
+
+#choropleth .tooltip.active{
+  opacity: 1;
+}
+#choropleth{
+  position:sticky;
+}
+
+.percentage-bar-chart-label{
+  margin-left: 2.5em;
+  margin-right: 1em;
+  margin-bottom: -20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  color:brown;
+}
