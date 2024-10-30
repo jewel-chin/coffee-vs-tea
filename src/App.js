@@ -9,6 +9,9 @@ import TeaProductionChoroplethSVG from './svg/TeaProductionChoroplethSVG';
 import TeaProductionLineChartSVG from './svg/TeaProductionLineChartSVG';
 import ComparisonProductionPieSVG from './svg/ComparisonProductionPieSVG';
 import ComparisonProductionStackedPercentageBarChartSVG from './svg/ComparisonProductionStackedPercentageBarChartSVG';
+import CoffeeSankey from './svg/CoffeeSankey';
+import TeaSankey from './svg/TeaSankey';
+import CoffeeNetwork from './svg/CoffeeNetwork';
 
 function App() {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
@@ -37,7 +40,7 @@ function App() {
           <h1 className="introduction-production-h1">#Production</h1>
         </div>
 
-        <div className="introduction-production coffee"
+        <div className="introduction-production"
 
           style={{ height: 'max-content', position: 'relative' }}>
 
@@ -81,7 +84,8 @@ function App() {
 
           }
 
-          <Scrollama onStepEnter={onStepEnter} offset={0.6}>
+          <Scrollama onStepEnter={onStepEnter} offset={0.5}>
+            
             <Step data={1} key={1}>
               <div
                 className='comment coffee'
@@ -276,7 +280,7 @@ function App() {
                   width: '400px',
                 }}
               >
-                <p><b style={{ fontSize: '1.3em' }}>Vietnam</b> ranked 5th in coffee production in 1990 but swiftly gained momentum, experiencing a remarkable surge in output from 1998.<br></br>
+                <p>For Coffee,<br></br> <b style={{ fontSize: '1.3em' }}>Vietnam</b> ranked 5th in coffee production in 1990 but swiftly gained momentum, experiencing a remarkable surge in output from 1998.<br></br>
                   <b style={{ fontSize: '1.3em' }}>It soared to 2nd place</b> and has maintained this rank with steady annual increases in production from then on.</p>
               </div>
             </Step>
@@ -291,7 +295,7 @@ function App() {
                   width: '400px',
                 }}
               >
-                <p>Meanwhile, <b style={{ fontSize: '1.3em' }}>China</b> and <b style={{ fontSize: '1.3em' }}>India</b> were in close competition until 2004,
+                <p>Meanwhile for Tea,<br></br> <b style={{ fontSize: '1.3em' }}>China</b> and <b style={{ fontSize: '1.3em' }}>India</b> were in close competition until 2004,
                   when China's production volume experienced a significant surge, allowing it to pull ahead of India. <br></br>This marked a pivotal shift, with both countries consistently standing out in production levels compared
                   to their peers – Kenya, Sri Lanka, and Turkey.</p>
               </div>
@@ -314,10 +318,71 @@ function App() {
 
 
         <div className="introduction-trade">
+
           <h1 className="introduction-trade-h1">#Trade</h1>
-          <p>( IMPORTS, EXPORTS )</p>
+          <p>( IMPORTS, EXPORTS, RE-EXPORTS )</p>
         </div>
 
+        <div className="introduction-trade"
+        style={{ height: 'max-content', position: 'relative' }}>
+         
+          <motion.h1
+            style={{ position: 'sticky', top: '50px', color: currentStepIndex >= 7 ? 'mediumblue' : 'rgb(82, 42, 8)' }}
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 0.5 }}
+            viewport={{ once: true }}
+            transition={{ duration: .3 }}>
+            #Trade</motion.h1>
+          <motion.span
+            style={{ position: 'sticky', top: '85px', color: currentStepIndex >= 7 ? 'mediumblue' : 'rgb(82, 42, 8)' }} // Change color based on the index
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1.2 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.3 }}
+          >
+            {currentStepIndexSecond < 7 ? '( CONNECTING COUNTRIES AROUND THE WORLD 🌎 )' : '( COMPARISON )'}
+            
+          </motion.span>
+          {
+            currentStepIndexSecond == 1?(
+              // <CoffeeSankey/>
+              <CoffeeNetwork/>
+            ):
+            <></>
+          }
+
+        <Scrollama onStepEnter={onStepEnterSecond}>
+          
+          <Step data={1} key={1}>
+          <div
+                className='comment'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 1 ? 1 : 0.2,
+                  marginTop: '50px',
+                  marginBottom: '500px',
+                }}
+              >
+<p>{currentStepIndexSecond}</p>
+              </div>
+          </Step>
+          <Step data={2} key={2}>
+              <div
+                className='comment'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 2 ? 1 : 0.2,
+                  marginBottom: '500px',
+                }}
+              >
+<p>{currentStepIndexSecond}</p>
+              </div>
+            </Step>
+          <Step data={1} key={1}>
+                <p>{currentStepIndexSecond}</p>
+          </Step>
+        </Scrollama>
+        </div>
       </ReactLenis>
     </main>
   );

@@ -1,0 +1,116 @@
+Exporter,Importer,Exporter_region,Import_region,Weight,Exporter_color,Importer_color,Source,Target
+Argentina,Egypt,Latin America and the Caribbean,Northern Africa and Western Asia,69.771729,#59a14f,#8c5c35,4,14
+Argentina,Kenya,Latin America and the Caribbean,Sub-Saharan Africa,22873.78813,#59a14f,gold,4,0
+Argentina,Morocco,Latin America and the Caribbean,Northern Africa and Western Asia,9.061350000000001,#59a14f,#8c5c35,4,16
+Argentina,Others (Importer),Latin America and the Caribbean,Northern Africa and Western Asia,1111966.8272205745,#59a14f,#8c5c35,4,19
+Argentina,Pakistan,Latin America and the Caribbean,Central and Southern Asia,2150.463338,#59a14f,#f28e2c,4,11
+Argentina,Russian Federation,Latin America and the Caribbean,Europe,17699.152084960002,#59a14f,#4e79a7,4,10
+Argentina,United Arab Emirates,Latin America and the Caribbean,Northern Africa and Western Asia,1816.2713780000001,#59a14f,#8c5c35,4,7
+Argentina,United Kingdom,Latin America and the Caribbean,Europe,60048.222155653995,#59a14f,#4e79a7,4,12
+Argentina,United States,Latin America and the Caribbean,Northern America,814397.16890046,#59a14f,purple,4,13
+China,Afghanistan,China,Central and Southern Asia,105201.78744,pink,#f28e2c,1,17
+China,Egypt,China,Northern Africa and Western Asia,15329.96268155,pink,#8c5c35,1,14
+China,Iran,China,Central and Southern Asia,46163.5095568,pink,#f28e2c,1,15
+China,Kenya,China,Sub-Saharan Africa,7291.81370658,pink,gold,1,0
+China,Morocco,China,Northern Africa and Western Asia,1098368.5537745699,pink,#8c5c35,1,16
+China,Others (Importer),China,Eastern and South-Eastern Asia (excl. China),3621362.229919463,pink,#e15759,1,19
+China,Pakistan,China,Central and Southern Asia,113035.6484918,pink,#f28e2c,1,11
+China,Russian Federation,China,Europe,283641.6935935,pink,#4e79a7,1,10
+China,United Arab Emirates,China,Northern Africa and Western Asia,18864.55894625,pink,#8c5c35,1,7
+China,United Kingdom,China,Europe,82749.667761,pink,#4e79a7,1,12
+China,United States,China,Northern America,346189.166127,pink,purple,1,13
+India,Afghanistan,Central and Southern Asia,Central and Southern Asia,45743.969011,#f28e2c,#f28e2c,3,17
+India,Egypt,Central and Southern Asia,Northern Africa and Western Asia,81546.37881452999,#f28e2c,#8c5c35,3,14
+India,Iran,Central and Southern Asia,Central and Southern Asia,319368.5632645,#f28e2c,#f28e2c,3,15
+India,Kenya,Central and Southern Asia,Sub-Saharan Africa,43976.22610771,#f28e2c,gold,3,0
+India,Morocco,Central and Southern Asia,Northern Africa and Western Asia,1306.727146415,#f28e2c,#8c5c35,3,16
+India,Others (Importer),Central and Southern Asia,Central and Southern Asia,1618102.1404945545,#f28e2c,#f28e2c,3,19
+India,Pakistan,Central and Southern Asia,Central and Southern Asia,205839.99804656,#f28e2c,#f28e2c,3,11
+India,Russian Federation,Central and Southern Asia,Europe,922163.9576485,#f28e2c,#4e79a7,3,10
+India,United Arab Emirates,Central and Southern Asia,Northern Africa and Western Asia,415141.72201455,#f28e2c,#8c5c35,3,7
+India,United Kingdom,Central and Southern Asia,Europe,422366.6929206,#f28e2c,#4e79a7,3,12
+India,United States,Central and Southern Asia,Northern America,221267.62535306,#f28e2c,purple,3,13
+Indonesia,Afghanistan,Eastern and South-Eastern Asia (excl. China),Central and Southern Asia,36943.45466,#e15759,#f28e2c,5,17
+Indonesia,Egypt,Eastern and South-Eastern Asia (excl. China),Northern Africa and Western Asia,13611.9263713,#e15759,#8c5c35,5,14
+Indonesia,Iran,Eastern and South-Eastern Asia (excl. China),Central and Southern Asia,21065.725356000003,#e15759,#f28e2c,5,15
+Indonesia,Kenya,Eastern and South-Eastern Asia (excl. China),Sub-Saharan Africa,5508.08906,#e15759,gold,5,0
+Indonesia,Morocco,Eastern and South-Eastern Asia (excl. China),Northern Africa and Western Asia,527.2386849000001,#e15759,#8c5c35,5,16
+Indonesia,Others (Importer),Eastern and South-Eastern Asia (excl. China),Eastern and South-Eastern Asia (excl. China),815132.9622189348,#e15759,#e15759,5,19
+Indonesia,Pakistan,Eastern and South-Eastern Asia (excl. China),Central and Southern Asia,156998.847124,#e15759,#f28e2c,5,11
+Indonesia,Russian Federation,Eastern and South-Eastern Asia (excl. China),Europe,229838.955912,#e15759,#4e79a7,5,10
+Indonesia,United Arab Emirates,Eastern and South-Eastern Asia (excl. China),Northern Africa and Western Asia,50616.4680941,#e15759,#8c5c35,5,7
+Indonesia,United Kingdom,Eastern and South-Eastern Asia (excl. China),Europe,191755.62918237,#e15759,#4e79a7,5,12
+Indonesia,United States,Eastern and South-Eastern Asia (excl. China),Northern America,94421.0996911,#e15759,purple,5,13
+Kenya,Afghanistan,Sub-Saharan Africa,Central and Southern Asia,612348.838,gold,#f28e2c,0,17
+Kenya,Egypt,Sub-Saharan Africa,Northern Africa and Western Asia,1422859.33988193,gold,#8c5c35,0,14
+Kenya,Iran,Sub-Saharan Africa,Central and Southern Asia,40288.1776,gold,#f28e2c,0,15
+Kenya,Morocco,Sub-Saharan Africa,Northern Africa and Western Asia,410.15321824999995,gold,#8c5c35,0,16
+Kenya,Others (Importer),Sub-Saharan Africa,Northern Africa and Western Asia,1484630.5633141513,gold,#8c5c35,0,19
+Kenya,Pakistan,Sub-Saharan Africa,Central and Southern Asia,1813454.22547267,gold,#f28e2c,0,11
+Kenya,Russian Federation,Sub-Saharan Africa,Europe,288812.185972,gold,#4e79a7,0,10
+Kenya,United Arab Emirates,Sub-Saharan Africa,Northern Africa and Western Asia,305072.318257,gold,#8c5c35,0,7
+Kenya,United Kingdom,Sub-Saharan Africa,Europe,1241857.7780624,gold,#4e79a7,0,12
+Kenya,United States,Sub-Saharan Africa,Northern America,70576.2607901,gold,purple,0,13
+Malawi,Egypt,Sub-Saharan Africa,Northern Africa and Western Asia,9313.36031,gold,#8c5c35,8,14
+Malawi,Iran,Sub-Saharan Africa,Central and Southern Asia,321.342436,gold,#f28e2c,8,15
+Malawi,Kenya,Sub-Saharan Africa,Sub-Saharan Africa,62798.47237,gold,gold,8,0
+Malawi,Morocco,Sub-Saharan Africa,Northern Africa and Western Asia,0.166,gold,#8c5c35,8,16
+Malawi,Others (Importer),Sub-Saharan Africa,Sub-Saharan Africa,418400.755809895,gold,gold,8,19
+Malawi,Pakistan,Sub-Saharan Africa,Central and Southern Asia,28971.337809999997,gold,#f28e2c,8,11
+Malawi,Russian Federation,Sub-Saharan Africa,Europe,10360.84704,gold,#4e79a7,8,10
+Malawi,United Arab Emirates,Sub-Saharan Africa,Northern Africa and Western Asia,6917.75483,gold,#8c5c35,8,7
+Malawi,United Kingdom,Sub-Saharan Africa,Europe,228334.25083496998,gold,#4e79a7,8,12
+Malawi,United States,Sub-Saharan Africa,Northern America,73321.776959,gold,purple,8,13
+Others (Exporter),Afghanistan,Central and Southern Asia,Central and Southern Asia,60749.27912031,#f28e2c,#f28e2c,18,17
+Others (Exporter),Egypt,Sub-Saharan Africa,Northern Africa and Western Asia,29432.141476564706,gold,#8c5c35,18,14
+Others (Exporter),Iran,Northern Africa and Western Asia,Central and Southern Asia,48953.05084458999,#8c5c35,#f28e2c,18,15
+Others (Exporter),Kenya,Sub-Saharan Africa,Sub-Saharan Africa,569184.7907940369,gold,gold,18,0
+Others (Exporter),Morocco,Europe,Northern Africa and Western Asia,8259.7861516109,#4e79a7,#8c5c35,18,16
+Others (Exporter),Others (Importer),Others,Others,7420481.0,grey,grey,18,19
+Others (Exporter),Pakistan,Sub-Saharan Africa,Central and Southern Asia,334930.052738078,gold,#f28e2c,18,11
+Others (Exporter),Russian Federation,Northern Africa and Western Asia,Europe,216662.7593113298,#8c5c35,#4e79a7,18,10
+Others (Exporter),United Arab Emirates,Central and Southern Asia,Northern Africa and Western Asia,84857.50358967362,#f28e2c,#8c5c35,18,7
+Others (Exporter),United Kingdom,Sub-Saharan Africa,Europe,503374.2396810928,gold,#4e79a7,18,12
+Others (Exporter),United States,Europe,Northern America,378261.49484791595,#4e79a7,purple,18,13
+Sri Lanka,Afghanistan,Central and Southern Asia,Central and Southern Asia,2574.6864634,#f28e2c,#f28e2c,2,17
+Sri Lanka,Egypt,Central and Southern Asia,Northern Africa and Western Asia,49403.2983508,#f28e2c,#8c5c35,2,14
+Sri Lanka,Iran,Central and Southern Asia,Central and Southern Asia,456235.6471431,#f28e2c,#f28e2c,2,15
+Sri Lanka,Kenya,Central and Southern Asia,Sub-Saharan Africa,2640.39024717,#f28e2c,gold,2,0
+Sri Lanka,Morocco,Central and Southern Asia,Northern Africa and Western Asia,2082.57396827,#f28e2c,#8c5c35,2,16
+Sri Lanka,Others (Importer),Central and Southern Asia,Northern Africa and Western Asia,3432478.853914288,#f28e2c,#8c5c35,2,19
+Sri Lanka,Pakistan,Central and Southern Asia,Central and Southern Asia,38496.3574181,#f28e2c,#f28e2c,2,11
+Sri Lanka,Russian Federation,Central and Southern Asia,Europe,1021686.535547,#f28e2c,#4e79a7,2,10
+Sri Lanka,United Arab Emirates,Central and Southern Asia,Northern Africa and Western Asia,545413.058757,#f28e2c,#8c5c35,2,7
+Sri Lanka,United Kingdom,Central and Southern Asia,Europe,69468.838304,#f28e2c,#4e79a7,2,12
+Sri Lanka,United States,Central and Southern Asia,Northern America,86105.878289,#f28e2c,purple,2,13
+Uganda,Egypt,Sub-Saharan Africa,Northern Africa and Western Asia,6196.351712000001,gold,#8c5c35,9,14
+Uganda,Iran,Sub-Saharan Africa,Central and Southern Asia,24.0,gold,#f28e2c,9,15
+Uganda,Kenya,Sub-Saharan Africa,Sub-Saharan Africa,737496.9102,gold,gold,9,0
+Uganda,Morocco,Sub-Saharan Africa,Northern Africa and Western Asia,84.3,gold,#8c5c35,9,16
+Uganda,Others (Importer),Sub-Saharan Africa,Northern Africa and Western Asia,26741.639024621,gold,#8c5c35,9,19
+Uganda,Pakistan,Sub-Saharan Africa,Central and Southern Asia,49736.7014,gold,#f28e2c,9,11
+Uganda,Russian Federation,Sub-Saharan Africa,Europe,1408.582,gold,#4e79a7,9,10
+Uganda,United Arab Emirates,Sub-Saharan Africa,Northern Africa and Western Asia,4015.84702,gold,#8c5c35,9,7
+Uganda,United Kingdom,Sub-Saharan Africa,Europe,7457.2151792,gold,#4e79a7,9,12
+Uganda,United States,Sub-Saharan Africa,Northern America,192.257,gold,purple,9,13
+United Arab Emirates,Afghanistan,Northern Africa and Western Asia,Central and Southern Asia,6891.309604,#8c5c35,#f28e2c,7,17
+United Arab Emirates,Egypt,Northern Africa and Western Asia,Northern Africa and Western Asia,12905.981841300001,#8c5c35,#8c5c35,7,14
+United Arab Emirates,Iran,Northern Africa and Western Asia,Central and Southern Asia,223535.133321,#8c5c35,#f28e2c,7,15
+United Arab Emirates,Kenya,Northern Africa and Western Asia,Sub-Saharan Africa,332.50851811,#8c5c35,gold,7,0
+United Arab Emirates,Morocco,Northern Africa and Western Asia,Northern Africa and Western Asia,910.6966898,#8c5c35,#8c5c35,7,16
+United Arab Emirates,Others (Importer),Northern Africa and Western Asia,Northern Africa and Western Asia,559821.1026084184,#8c5c35,#8c5c35,7,19
+United Arab Emirates,Pakistan,Northern Africa and Western Asia,Central and Southern Asia,5020.5431366,#8c5c35,#f28e2c,7,11
+United Arab Emirates,Russian Federation,Northern Africa and Western Asia,Europe,69148.0372207,#8c5c35,#4e79a7,7,10
+United Arab Emirates,United Kingdom,Northern Africa and Western Asia,Europe,14791.7365962,#8c5c35,#4e79a7,7,12
+United Arab Emirates,United States,Northern Africa and Western Asia,Northern America,2273.8378229,#8c5c35,purple,7,13
+Vietnam,Afghanistan,Eastern and South-Eastern Asia (excl. China),Central and Southern Asia,189121.233,#e15759,#f28e2c,6,17
+Vietnam,Egypt,Eastern and South-Eastern Asia (excl. China),Northern Africa and Western Asia,7052.3777263,#e15759,#8c5c35,6,14
+Vietnam,Iran,Eastern and South-Eastern Asia (excl. China),Central and Southern Asia,6213.38003,#e15759,#f28e2c,6,15
+Vietnam,Kenya,Eastern and South-Eastern Asia (excl. China),Sub-Saharan Africa,2995.56098,#e15759,gold,6,0
+Vietnam,Morocco,Eastern and South-Eastern Asia (excl. China),Northern Africa and Western Asia,265.113814,#e15759,#8c5c35,6,16
+Vietnam,Others (Importer),Eastern and South-Eastern Asia (excl. China),Eastern and South-Eastern Asia (excl. China),676495.1538265797,#e15759,#e15759,6,19
+Vietnam,Pakistan,Eastern and South-Eastern Asia (excl. China),Central and Southern Asia,273295.438655,#e15759,#f28e2c,6,11
+Vietnam,Russian Federation,Eastern and South-Eastern Asia (excl. China),Europe,213914.29460906,#e15759,#4e79a7,6,10
+Vietnam,United Arab Emirates,Eastern and South-Eastern Asia (excl. China),Northern Africa and Western Asia,39952.838081,#e15759,#8c5c35,6,7
+Vietnam,United Kingdom,Eastern and South-Eastern Asia (excl. China),Europe,13637.66241885,#e15759,#4e79a7,6,12
+Vietnam,United States,Eastern and South-Eastern Asia (excl. China),Northern America,83583.05455828,#e15759,purple,6,13

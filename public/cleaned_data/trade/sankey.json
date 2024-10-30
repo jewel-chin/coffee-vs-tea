@@ -1,0 +1,694 @@
+{
+  "nodes": [
+    {
+      "node": 0,
+      "name": "Brazil"
+    },
+    {
+      "node": 1,
+      "name": "Vietnam"
+    },
+    {
+      "node": 2,
+      "name": "Colombia"
+    },
+    {
+      "node": 3,
+      "name": "Indonesia"
+    },
+    {
+      "node": 4,
+      "name": "Germany"
+    },
+    {
+      "node": 5,
+      "name": "Honduras"
+    },
+    {
+      "node": 6,
+      "name": "Guatemala"
+    },
+    {
+      "node": 7,
+      "name": "Peru"
+    },
+    {
+      "node": 8,
+      "name": "India"
+    },
+    {
+      "node": 9,
+      "name": "Uganda"
+    },
+    {
+      "node": 10,
+      "name": "United States"
+    },
+    {
+      "node": 11,
+      "name": "Germany"
+    },
+    {
+      "node": 12,
+      "name": "Italy"
+    },
+    {
+      "node": 13,
+      "name": "Japan"
+    },
+    {
+      "node": 14,
+      "name": "France"
+    },
+    {
+      "node": 15,
+      "name": "Belgium"
+    },
+    {
+      "node": 16,
+      "name": "Spain"
+    },
+    {
+      "node": 17,
+      "name": "Canada"
+    },
+    {
+      "node": 18,
+      "name": "United Kingdom"
+    },
+    {
+      "node": 19,
+      "name": "Netherlands"
+    },
+    {
+      "node": 20,
+      "name": "Others (Exporter)"
+    },
+    {
+      "node": 21,
+      "name": "Others (Importer)"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 15,
+      "value": 1359658.02869229
+    },
+    {
+      "source": 0,
+      "target": 17,
+      "value": 642395.560777095
+    },
+    {
+      "source": 0,
+      "target": 14,
+      "value": 1077867.622993435
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "value": 6256841.64452641
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "value": 3103032.9423154
+    },
+    {
+      "source": 0,
+      "target": 13,
+      "value": 2361604.32639081
+    },
+    {
+      "source": 0,
+      "target": 19,
+      "value": 528340.662083842
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "value": 9068966.223288624
+    },
+    {
+      "source": 0,
+      "target": 16,
+      "value": 944223.81766223
+    },
+    {
+      "source": 0,
+      "target": 18,
+      "value": 587465.1920562
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "value": 6209853.4340037
+    },
+    {
+      "source": 2,
+      "target": 15,
+      "value": 562946.0313565
+    },
+    {
+      "source": 2,
+      "target": 17,
+      "value": 827039.7594274953
+    },
+    {
+      "source": 2,
+      "target": 14,
+      "value": 225646.29874768
+    },
+    {
+      "source": 2,
+      "target": 11,
+      "value": 1303014.8887619239
+    },
+    {
+      "source": 2,
+      "target": 12,
+      "value": 321200.04520568997
+    },
+    {
+      "source": 2,
+      "target": 13,
+      "value": 1460019.793369
+    },
+    {
+      "source": 2,
+      "target": 19,
+      "value": 146216.634884975
+    },
+    {
+      "source": 2,
+      "target": 21,
+      "value": 1823524.1114940036
+    },
+    {
+      "source": 2,
+      "target": 16,
+      "value": 310466.82917859
+    },
+    {
+      "source": 2,
+      "target": 18,
+      "value": 367736.297549456
+    },
+    {
+      "source": 2,
+      "target": 10,
+      "value": 5033046.5993694
+    },
+    {
+      "source": 11,
+      "target": 15,
+      "value": 391043.9773257
+    },
+    {
+      "source": 11,
+      "target": 17,
+      "value": 40227.12923664
+    },
+    {
+      "source": 11,
+      "target": 14,
+      "value": 661277.4523059999
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "value": 267520.04166582
+    },
+    {
+      "source": 11,
+      "target": 13,
+      "value": 7580.2748219
+    },
+    {
+      "source": 11,
+      "target": 19,
+      "value": 748557.8629696
+    },
+    {
+      "source": 11,
+      "target": 21,
+      "value": 3823563.836406721
+    },
+    {
+      "source": 11,
+      "target": 16,
+      "value": 528682.19910413
+    },
+    {
+      "source": 11,
+      "target": 18,
+      "value": 226101.2603635
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "value": 1170829.6908655
+    },
+    {
+      "source": 6,
+      "target": 15,
+      "value": 150840.37495
+    },
+    {
+      "source": 6,
+      "target": 17,
+      "value": 376363.636264243
+    },
+    {
+      "source": 6,
+      "target": 14,
+      "value": 63320.950832999995
+    },
+    {
+      "source": 6,
+      "target": 11,
+      "value": 376428.34272247
+    },
+    {
+      "source": 6,
+      "target": 12,
+      "value": 218422.98053924998
+    },
+    {
+      "source": 6,
+      "target": 13,
+      "value": 543548.613833
+    },
+    {
+      "source": 6,
+      "target": 19,
+      "value": 79370.74090269
+    },
+    {
+      "source": 6,
+      "target": 21,
+      "value": 575517.8621668207
+    },
+    {
+      "source": 6,
+      "target": 16,
+      "value": 34210.30040245
+    },
+    {
+      "source": 6,
+      "target": 18,
+      "value": 37773.79034497
+    },
+    {
+      "source": 6,
+      "target": 10,
+      "value": 2085879.7517195
+    },
+    {
+      "source": 5,
+      "target": 15,
+      "value": 410830.1466
+    },
+    {
+      "source": 5,
+      "target": 17,
+      "value": 93579.4998360765
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "value": 231005.78194
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "value": 1300035.6416747
+    },
+    {
+      "source": 5,
+      "target": 12,
+      "value": 254096.7687
+    },
+    {
+      "source": 5,
+      "target": 13,
+      "value": 156599.163
+    },
+    {
+      "source": 5,
+      "target": 19,
+      "value": 141347.232015017
+    },
+    {
+      "source": 5,
+      "target": 21,
+      "value": 968784.2147234814
+    },
+    {
+      "source": 5,
+      "target": 16,
+      "value": 105252.93817556
+    },
+    {
+      "source": 5,
+      "target": 18,
+      "value": 106180.67
+    },
+    {
+      "source": 5,
+      "target": 10,
+      "value": 906901.8050623
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "value": 199369.50846527
+    },
+    {
+      "source": 8,
+      "target": 17,
+      "value": 26697.557446090002
+    },
+    {
+      "source": 8,
+      "target": 14,
+      "value": 72145.267405548
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "value": 490880.55708344
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "value": 1148522.18566464
+    },
+    {
+      "source": 8,
+      "target": 13,
+      "value": 41058.290895699996
+    },
+    {
+      "source": 8,
+      "target": 19,
+      "value": 45565.448417228996
+    },
+    {
+      "source": 8,
+      "target": 21,
+      "value": 1575517.493801825
+    },
+    {
+      "source": 8,
+      "target": 16,
+      "value": 181948.75198248
+    },
+    {
+      "source": 8,
+      "target": 18,
+      "value": 30687.71652608
+    },
+    {
+      "source": 8,
+      "target": 10,
+      "value": 78392.6044705
+    },
+    {
+      "source": 3,
+      "target": 15,
+      "value": 167777.663972294
+    },
+    {
+      "source": 3,
+      "target": 17,
+      "value": 67821.81143785
+    },
+    {
+      "source": 3,
+      "target": 14,
+      "value": 112458.9360371
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "value": 1045589.7266096144
+    },
+    {
+      "source": 3,
+      "target": 12,
+      "value": 550707.555
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "value": 998928.4832147
+    },
+    {
+      "source": 3,
+      "target": 19,
+      "value": 34105.185283113
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "value": 3297266.6688838145
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "value": 76260.052783237
+    },
+    {
+      "source": 3,
+      "target": 18,
+      "value": 308018.65002786403
+    },
+    {
+      "source": 3,
+      "target": 10,
+      "value": 1400534.63441196
+    },
+    {
+      "source": 20,
+      "target": 15,
+      "value": 1538128.4552468122
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "value": 2089993.5890135113
+    },
+    {
+      "source": 20,
+      "target": 14,
+      "value": 3264990.0412230906
+    },
+    {
+      "source": 20,
+      "target": 11,
+      "value": 5042778.524749171
+    },
+    {
+      "source": 20,
+      "target": 12,
+      "value": 1591318.837720658
+    },
+    {
+      "source": 20,
+      "target": 13,
+      "value": 1484473.160873442
+    },
+    {
+      "source": 20,
+      "target": 19,
+      "value": 1326257.9576904457
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "value": 13560150.0
+    },
+    {
+      "source": 20,
+      "target": 16,
+      "value": 1024740.1660253392
+    },
+    {
+      "source": 20,
+      "target": 18,
+      "value": 1058291.5973127007
+    },
+    {
+      "source": 20,
+      "target": 10,
+      "value": 6864918.047110221
+    },
+    {
+      "source": 7,
+      "target": 15,
+      "value": 280981.872080432
+    },
+    {
+      "source": 7,
+      "target": 17,
+      "value": 164278.13681153
+    },
+    {
+      "source": 7,
+      "target": 14,
+      "value": 128843.995869984
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "value": 1218935.2337140776
+    },
+    {
+      "source": 7,
+      "target": 12,
+      "value": 92808.504043628
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "value": 62951.718026229995
+    },
+    {
+      "source": 7,
+      "target": 19,
+      "value": 117445.351274004
+    },
+    {
+      "source": 7,
+      "target": 21,
+      "value": 927498.6663906762
+    },
+    {
+      "source": 7,
+      "target": 16,
+      "value": 37224.3877304
+    },
+    {
+      "source": 7,
+      "target": 18,
+      "value": 98041.631196
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "value": 1054167.7035435701
+    },
+    {
+      "source": 9,
+      "target": 15,
+      "value": 196736.41826
+    },
+    {
+      "source": 9,
+      "target": 17,
+      "value": 10076.834803
+    },
+    {
+      "source": 9,
+      "target": 14,
+      "value": 86908.036605
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "value": 519542.590412306
+    },
+    {
+      "source": 9,
+      "target": 12,
+      "value": 506141.8561
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "value": 16799.12813
+    },
+    {
+      "source": 9,
+      "target": 19,
+      "value": 109756.80354722
+    },
+    {
+      "source": 9,
+      "target": 21,
+      "value": 1533182.6544497067
+    },
+    {
+      "source": 9,
+      "target": 16,
+      "value": 288383.708132
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "value": 87984.4295614
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "value": 161954.1079905
+    },
+    {
+      "source": 1,
+      "target": 15,
+      "value": 770556.2002322
+    },
+    {
+      "source": 1,
+      "target": 17,
+      "value": 126478.50421757
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "value": 629822.57497655
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "value": 3287749.8854615698
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "value": 1600258.74682061
+    },
+    {
+      "source": 1,
+      "target": 13,
+      "value": 1068176.84075566
+    },
+    {
+      "source": 1,
+      "target": 19,
+      "value": 287726.87902746
+    },
+    {
+      "source": 1,
+      "target": 21,
+      "value": 7427979.437347835
+    },
+    {
+      "source": 1,
+      "target": 16,
+      "value": 1653831.54463746
+    },
+    {
+      "source": 1,
+      "target": 18,
+      "value": 712160.94103274
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "value": 2848002.588316
+    }
+  ]
+}

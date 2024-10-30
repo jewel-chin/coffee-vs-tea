@@ -116,7 +116,8 @@ h2{
 }
 
 .introduction-trade{
-  background-color: rgba(248, 220, 111, 0.6);
+  background-color: #faf7ed;
+  color: mediumblue;
 }
 .introduction-trade-h1::after {
   content: "🤝";
