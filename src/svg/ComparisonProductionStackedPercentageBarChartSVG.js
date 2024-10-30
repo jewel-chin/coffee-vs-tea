@@ -4,7 +4,8 @@ import React, { useRef } from 'react';
 const ComparisonProductionStackedPercentageBarChartSVG = () => {
     
     return (
-        <motion.div style={{position:'relative', right:'15%'}}
+        <motion.div 
+        style={{width:'100%',height:'100%'}}
         initial={{scale: 0}}
         whileInView={{scale: 0.95}}   
         viewport={{ once: true }}                
@@ -15,8 +16,8 @@ const ComparisonProductionStackedPercentageBarChartSVG = () => {
                 <span>Tea</span>
             </div>
 
-            <svg width="800" height="600">
-                <g fill="none" font-family="sans-serif" font-size="10" text-anchor="middle">
+            <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+            <g fill="none" font-family="sans-serif" font-size="10" text-anchor="middle">
                     <path stroke="currentColor" d="M50 586v-6h730v6" class="domain" />
                     <g class="tick">
                         <path stroke="currentColor" d="M50 580v6" />

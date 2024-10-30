@@ -10,13 +10,11 @@ const TeaProductionLineChartSVG = () => {
       style={{
         display: 'flex',
         flexDirection: 'column',
-        paddingTop: '50px',
         position: 'sticky',
-        top: '100px',
-        justifyContent: 'center'
-      }}
+        top: '60px',
+      }}  
       initial={{ scale: 0 }}
-      whileInView={{ scale: 1}}
+      whileInView={{ scale: 0.8}}
       viewport={{ once: true }}
       transition={{ duration: 1 }}>
       <div class="image-container">

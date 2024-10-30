@@ -170,13 +170,15 @@ p {
 .two-items {
   display: flex;
   flex-direction: row;
-  min-height: 80vh;
-  width:100vw;
+  height: 80vh;
   justify-content: center;
-  margin:0 auto;
+  align-items: center;
 }
 .position-left{
-  position: relative;
-  right:390px
-  
+  margin-right: auto;
+  margin-left:5em;
+}
+.position-right{
+  margin-right: 5em;
+  margin-left:auto;
 }

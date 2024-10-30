@@ -8,12 +8,11 @@ const CoffeeProductionLineChartSVG = () => {
       style={{
         display: 'flex',
         flexDirection: 'column',
-        paddingTop: '50px',
         position: 'sticky',
-        top: '100px',
+        top: '60px',
       }}  
       initial={{scale: 0}}
-      whileInView={{scale: 0.9}}   
+      whileInView={{scale: 0.8}}   
       viewport={{ once: true }}                
       transition={{ duration: 1}}>
         <div class="image-container">

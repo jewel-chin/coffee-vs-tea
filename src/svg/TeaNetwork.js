@@ -1,11 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
 import * as d3 from "d3";
 
-const CoffeeNetwork = () => {
-    const json_filepath = '/cleaned_data/trade/coffee_network.json';
+const TeaNetwork = () => {
+    const json_filepath = '/cleaned_data/trade/tea_network.json';
     const svgRef = useRef();
     var tooltip_ref = useRef(null);
     let tooltip_tag = "test";
+
     const [dimensions, setDimensions] = useState({
         width: window.innerWidth,
         height: window.innerHeight,
@@ -26,16 +27,15 @@ const CoffeeNetwork = () => {
             .attr("height", dimensions.height)
             .attr("viewBox", `0 0 ${dimensions.width} ${dimensions.height}`);
 
-        // Clear previous elements before re-adding
-        svg.selectAll("*").remove();
+        svg.selectAll("*").remove(); // Clear previous elements
 
         // Define arrow marker
         svg.append("defs").selectAll("marker")
-            .data(["arrow"]) // Arbitrary key to define marker
+            .data(["arrow"])
             .enter().append("marker")
             .attr("id", "arrow")
             .attr("viewBox", "0 0 10 10")
-            .attr("refX", 60) // Position of the arrow head
+            .attr("refX", 60)
             .attr("refY", 5)
             .attr("markerWidth", 10)
             .attr("markerHeight", 6)
@@ -44,7 +44,6 @@ const CoffeeNetwork = () => {
             .attr("points", "0 0, 10 5, 0 10")
             .attr("fill", "black");
 
-        // Fetch data from JSON
         fetch(json_filepath)
             .then((res) => res.json())
             .then((data) => {
@@ -54,19 +53,18 @@ const CoffeeNetwork = () => {
                 function findActualWeightById(id) {
                     const node = data.nodes.find(node => node.id === id);
                     if (node && Math.trunc(node.actual_weight / 1000) === 0) {
-                        // negligible in million tonnes!
-                        return node ? `${id}: ${Math.trunc(node.actual_weight)}k tonnes` : null;
+                        return `${id}: ${Math.trunc(node.actual_weight)}k tonnes`;
                     }
                     return node ? `${id}: ${Math.trunc(node.actual_weight / 1000)} million tonnes` : null;
                 }
-                // Create link and node selections
+
                 const linkSelection = svg.selectAll("line")
                     .data(links)
                     .enter()
                     .append("line")
                     .attr("stroke", "black")
                     .attr("stroke-width", 1)
-                    .attr("marker-end", "url(#arrow)"); // Use the defined arrow marker
+                    .attr("marker-end", "url(#arrow)");
 
                 const nodeSelection = svg.selectAll("circle")
                     .data(nodes)
@@ -74,61 +72,44 @@ const CoffeeNetwork = () => {
                     .append("circle")
                     .attr("r", (d) => d.size)
                     .attr("fill", (d) => d.color)
-                    .attr('class', (d) => "circle-" + d.id + "-" + d.size)
                     .call(d3.drag()
                         .on("start", dragStart)
                         .on("drag", drag)
                         .on("end", dragEnd)
                     )
                     .on("mouseover", (e) => {
+                        if (!tooltip_ref.current) return;
                         const target_class_name = e.target.className.baseVal;
                         const split_class_name = target_class_name.split("-");
                         const country = split_class_name[1];
                         tooltip_tag = findActualWeightById(country);
+                        console.log(tooltip_tag)
                         if (tooltip_tag !== null) {
-                            tooltip_ref.current.innerHTML = tooltip_tag; // Corrected line
+                            tooltip_ref.current.innerHTML = tooltip_tag;
                             tooltip_ref.current.style.opacity = 1;
                             tooltip_ref.current.style.left = `${e.clientX}px`;
                             tooltip_ref.current.style.top = `${e.clientY}px`;
                         }
-                        else {
-                            console.warn(`Node with id ${country} not found.`);
-                        }
                     })
-                    .on('mouseleave', (e) => {
-                        tooltip_ref.current.innerHTML = "";
-                        if (tooltip_ref.current) {
-                            tooltip_ref.current.style.opacity = 0;
-                        }
-                    })
+                    .on('mouseleave', () => {
+                        if (tooltip_ref.current) tooltip_ref.current.style.opacity = 0;
+                    });
 
-                // Set up the force simulation
                 const simulation = d3.forceSimulation(nodes)
                     .force("center", d3.forceCenter(dimensions.width / 2, dimensions.height / 2))
-                    .force("charge", d3.forceManyBody().strength(-4)) // Adjust repulsion strength
-                    .force("link", d3.forceLink().id((d) => d.id).links(links))
-                    .force("collide", d3.forceCollide()) // Prevent nodes from getting too close
-
+                    .force("charge", d3.forceManyBody().strength(-4))
+                    .force("link", d3.forceLink().id(d => d.id).links(links))
                     .on("tick", () => {
-                        // Define boundaries
                         const xMax = dimensions.width;
                         const yMax = dimensions.height;
-
                         nodeSelection
-                            .attr("cx", (d) => {
-                                // Clamp x position
-                                d.x = Math.max(d.size, Math.min(xMax - d.size, d.x));
-                                return d.x;
-                            })
-                            .attr("cy", (d) => {
-                                // Clamp y position
-                                d.y = Math.max(d.size, Math.min(yMax - d.size, d.y));
-                                return d.y;
-                            }); linkSelection
-                                .attr("x1", (d) => d.source.x)
-                                .attr("y1", (d) => d.source.y)
-                                .attr("x2", (d) => d.target.x)
-                                .attr("y2", (d) => d.target.y);
+                            .attr("cx", (d) => d.x = Math.max(d.size, Math.min(xMax - d.size, d.x)))
+                            .attr("cy", (d) => d.y = Math.max(d.size, Math.min(yMax - d.size, d.y)));
+                        linkSelection
+                            .attr("x1", d => d.source.x)
+                            .attr("y1", d => d.source.y)
+                            .attr("x2", d => d.target.x)
+                            .attr("y2", d => d.target.y);
                     });
 
                 function dragStart(event, d) {
@@ -138,8 +119,8 @@ const CoffeeNetwork = () => {
                 }
 
                 function drag(event, d) {
-                    d.fx = event.x * 1.3;
-                    d.fy = event.y * 1.3;
+                    d.fx = event.x;
+                    d.fy = event.y;
                 }
 
                 function dragEnd(event, d) {
@@ -148,53 +129,40 @@ const CoffeeNetwork = () => {
                     d.fy = null;
                 }
 
-                // Update simulation center on resize
-                simulation.force("center", d3.forceCenter(dimensions.width / 2, dimensions.height / 2));
-
-
-
-
                 // Reset function
                 const resetSimulation = () => {
-                    // Reset node positions to initial positions
                     nodes.forEach((node) => {
+                        node.fx = null;
+                        node.fy = null;
                         node.x = Math.random() * dimensions.width;
                         node.y = Math.random() * dimensions.height;
                     });
-                    simulation.nodes(nodes);
-                    simulation.alpha(0.6).restart(); // Restart simulation
+                    simulation.alpha(1).restart();
                 };
 
-                // Keydown event listener
                 const handleKeyDown = (event) => {
                     if (event.key === "x" || event.key === "X") {
                         resetSimulation();
                     }
                 };
 
-                // Add keydown event listener
                 window.addEventListener("keydown", handleKeyDown);
-
-                return () =>{
+                return () => {
                     window.removeEventListener("keydown", handleKeyDown);
-
-                }
+                };
             });
-
 
         return () => {
             window.removeEventListener("resize", handleResize);
-
         };
     }, [dimensions]);
 
-
     return (
         <div>
-            <div class="tooltip" ref={tooltip_ref} style={{ position: "absolute", width: 'max-content', opacity: 0, backgroundColor: "white", border: "1px solid #333", borderRadius: "4px", height: "max-content", padding: '4px' }}>testingintginnt</div>
+            <div className="tooltip" ref={tooltip_ref} style={{ position: "absolute", width: 'max-content', opacity: 0, backgroundColor: "white", border: "1px solid #333", borderRadius: "4px", padding: '4px' }}></div>
             <svg ref={svgRef}></svg>
         </div>
     )
 };
 
-export default CoffeeNetwork;
+export default TeaNetwork;

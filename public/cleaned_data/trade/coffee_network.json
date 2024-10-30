@@ -1,0 +1,2226 @@
+{
+  "nodes": [
+    {
+      "id": "Brazil",
+      "color": "#59a14f",
+      "size": "68.00",
+      "actual_weight": 32140249.454790037
+    },
+    {
+      "id": "Vietnam",
+      "color": "#e15759",
+      "size": "45.00",
+      "actual_weight": 20412744.14282566
+    },
+    {
+      "id": "Colombia",
+      "color": "#59a14f",
+      "size": "29.00",
+      "actual_weight": 12380857.289344713
+    },
+    {
+      "id": "Indonesia",
+      "color": "#e15759",
+      "size": "21.00",
+      "actual_weight": 8059469.367661546
+    },
+    {
+      "id": "Germany",
+      "color": "#4e79a7",
+      "size": "20.00",
+      "actual_weight": 7865383.725065512
+    },
+    {
+      "id": "Honduras",
+      "color": "#59a14f",
+      "size": "14.00",
+      "actual_weight": 4674613.861727135
+    },
+    {
+      "id": "Guatemala",
+      "color": "#59a14f",
+      "size": "14.00",
+      "actual_weight": 4541677.344678394
+    },
+    {
+      "id": "Peru",
+      "color": "#59a14f",
+      "size": "13.00",
+      "actual_weight": 4183177.2006805316
+    },
+    {
+      "id": "India",
+      "color": "#f28e2c",
+      "size": "13.00",
+      "actual_weight": 3890785.382158802
+    },
+    {
+      "id": "Uganda",
+      "color": "gold",
+      "size": "12.00",
+      "actual_weight": 3517466.567991133
+    },
+    {
+      "id": "Ethiopia",
+      "color": "gold",
+      "size": "11.00",
+      "actual_weight": 3070822.386806358
+    },
+    {
+      "id": "Italy",
+      "color": "#4e79a7",
+      "size": "10.00",
+      "actual_weight": 2677645.7935608546
+    },
+    {
+      "id": "Mexico",
+      "color": "#59a14f",
+      "size": "10.00",
+      "actual_weight": 2620806.392173847
+    },
+    {
+      "id": "United States",
+      "color": "purple",
+      "size": "9.00",
+      "actual_weight": 2234698.760186669
+    },
+    {
+      "id": "Cote d'Ivoire",
+      "color": "gold",
+      "size": "9.00",
+      "actual_weight": 2222374.161505011
+    },
+    {
+      "id": "Belgium",
+      "color": "#4e79a7",
+      "size": "9.00",
+      "actual_weight": 2085979.3895813467
+    },
+    {
+      "id": "Costa Rica",
+      "color": "#59a14f",
+      "size": "9.00",
+      "actual_weight": 2035090.3239576507
+    },
+    {
+      "id": "Nicaragua",
+      "color": "#59a14f",
+      "size": "9.00",
+      "actual_weight": 1998692.4365598375
+    },
+    {
+      "id": "El Salvador",
+      "color": "#59a14f",
+      "size": "8.00",
+      "actual_weight": 1439860.7470928864
+    },
+    {
+      "id": "Netherlands",
+      "color": "#4e79a7",
+      "size": "7.00",
+      "actual_weight": 1251973.1919661507
+    },
+    {
+      "id": "Papua New Guinea",
+      "color": "mediumturquoise",
+      "size": "7.00",
+      "actual_weight": 1200702.3330706104
+    },
+    {
+      "id": "Kenya",
+      "color": "gold",
+      "size": "7.00",
+      "actual_weight": 1114701.6567338514
+    },
+    {
+      "id": "Switzerland",
+      "color": "#4e79a7",
+      "size": "7.00",
+      "actual_weight": 1055056.1783213702
+    },
+    {
+      "id": "Tanzania",
+      "color": "gold",
+      "size": "7.00",
+      "actual_weight": 1032955.4664521227
+    },
+    {
+      "id": "Cameroon",
+      "color": "gold",
+      "size": "7.00",
+      "actual_weight": 841452.0095503699
+    },
+    {
+      "id": "China",
+      "color": "pink",
+      "size": "7.00",
+      "actual_weight": 828090.908449076
+    },
+    {
+      "id": "Poland",
+      "color": "#4e79a7",
+      "size": "7.00",
+      "actual_weight": 775274.9543286595
+    },
+    {
+      "id": "Canada",
+      "color": "purple",
+      "size": "7.00",
+      "actual_weight": 769217.6991788162
+    },
+    {
+      "id": "France",
+      "color": "#4e79a7",
+      "size": "6.00",
+      "actual_weight": 735113.655303676
+    },
+    {
+      "id": "Spain",
+      "color": "#4e79a7",
+      "size": "6.00",
+      "actual_weight": 667847.6524418372
+    },
+    {
+      "id": "Rwanda",
+      "color": "gold",
+      "size": "6.00",
+      "actual_weight": 481967.85741308203
+    },
+    {
+      "id": "Austria",
+      "color": "#4e79a7",
+      "size": "6.00",
+      "actual_weight": 458211.76573406346
+    },
+    {
+      "id": "Sweden",
+      "color": "#4e79a7",
+      "size": "6.00",
+      "actual_weight": 426575.453882153
+    },
+    {
+      "id": "Lao PDR",
+      "color": "#e15759",
+      "size": "6.00",
+      "actual_weight": 421127.41502597195
+    },
+    {
+      "id": "United Kingdom",
+      "color": "#4e79a7",
+      "size": "6.00",
+      "actual_weight": 417883.93197736784
+    },
+    {
+      "id": "Burundi",
+      "color": "gold",
+      "size": "6.00",
+      "actual_weight": 397694.74178218003
+    },
+    {
+      "id": "Guinea",
+      "color": "gold",
+      "size": "6.00",
+      "actual_weight": 348183.5437914
+    },
+    {
+      "id": "Ecuador",
+      "color": "#59a14f",
+      "size": "6.00",
+      "actual_weight": 315287.615321844
+    },
+    {
+      "id": "Czech Republic",
+      "color": "#4e79a7",
+      "size": "6.00",
+      "actual_weight": 303842.46159246314
+    },
+    {
+      "id": "Togo",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 244540.79362820002
+    },
+    {
+      "id": "Slovakia",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 239230.89879001532
+    },
+    {
+      "id": "Thailand",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 220464.66013249653
+    },
+    {
+      "id": "Portugal",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 188135.4575815266
+    },
+    {
+      "id": "Finland",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 166176.08927311827
+    },
+    {
+      "id": "Singapore",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 148258.25551208947
+    },
+    {
+      "id": "Denmark",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 147046.50035538402
+    },
+    {
+      "id": "Congo, Democratic Republic",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 145566.78405058003
+    },
+    {
+      "id": "Hungary",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 138444.49088969923
+    },
+    {
+      "id": "Bulgaria",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 138331.5074597144
+    },
+    {
+      "id": "Madagascar",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 137898.3046453161
+    },
+    {
+      "id": "Congo, Republic",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 114305.15231749999
+    },
+    {
+      "id": "Panama",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 112494.3860882517
+    },
+    {
+      "id": "Malaysia",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 109177.54524666101
+    },
+    {
+      "id": "Jamaica",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 108801.19911194456
+    },
+    {
+      "id": "Yemen",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 101637.892346686
+    },
+    {
+      "id": "South Africa",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 100470.95819956205
+    },
+    {
+      "id": "Timor-Leste",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 99149.339903174
+    },
+    {
+      "id": "Luxembourg",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 95944.5167211823
+    },
+    {
+      "id": "Russian Federation",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 91773.92052935042
+    },
+    {
+      "id": "Estonia",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 88888.55498233339
+    },
+    {
+      "id": "Bolivia",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 88210.80993265801
+    },
+    {
+      "id": "Dominican Republic",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 81975.50130387001
+    },
+    {
+      "id": "Greece",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 78468.437937849
+    },
+    {
+      "id": "Lebanon",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 75757.104034729
+    },
+    {
+      "id": "Zambia",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 69024.03175976999
+    },
+    {
+      "id": "Zimbabwe",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 68063.54306273599
+    },
+    {
+      "id": "Lithuania",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 66805.49981360219
+    },
+    {
+      "id": "United Arab Emirates",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 65834.4329233423
+    },
+    {
+      "id": "Slovenia",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 64769.5914219232
+    },
+    {
+      "id": "Venezuela",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 61215.248916070006
+    },
+    {
+      "id": "Ireland",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 57884.69533574
+    },
+    {
+      "id": "Australia",
+      "color": "greenyellow",
+      "size": "5.00",
+      "actual_weight": 53603.229914484495
+    },
+    {
+      "id": "Ghana",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 52107.01208583999
+    },
+    {
+      "id": "Sierra Leone",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 50848.328171
+    },
+    {
+      "id": "Latvia",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 47807.49904988969
+    },
+    {
+      "id": "Cuba",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 47364.799824095
+    },
+    {
+      "id": "Armenia",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 43229.07870772736
+    },
+    {
+      "id": "Malawi",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 42471.168060886
+    },
+    {
+      "id": "Djibouti",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 37709.054507
+    },
+    {
+      "id": "Central African Republic",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 36343.93041100001
+    },
+    {
+      "id": "Japan",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 34812.72849579181
+    },
+    {
+      "id": "Saudi Arabia",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 32557.33397441001
+    },
+    {
+      "id": "Turkey",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 31686.653585098804
+    },
+    {
+      "id": "Croatia",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 29770.1503217758
+    },
+    {
+      "id": "China, Hong Kong SAR",
+      "color": "pink",
+      "size": "5.00",
+      "actual_weight": 27790.91652072
+    },
+    {
+      "id": "Haiti",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 27640.821621
+    },
+    {
+      "id": "Korea, Republic",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 24527.6167159395
+    },
+    {
+      "id": "Egypt",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 21667.933261728
+    },
+    {
+      "id": "Israel",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 20025.92443625
+    },
+    {
+      "id": "Romania",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 19941.6973902998
+    },
+    {
+      "id": "Bosnia Herzegovina",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 14728.9068362773
+    },
+    {
+      "id": "Angola",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 12396.82158393
+    },
+    {
+      "id": "Serbia",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 12095.952096570702
+    },
+    {
+      "id": "Cyprus",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 11273.676359908999
+    },
+    {
+      "id": "Jordan",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 10848.540476778
+    },
+    {
+      "id": "Syria",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 10734.362318191
+    },
+    {
+      "id": "Norway",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 10536.7247845989
+    },
+    {
+      "id": "New Zealand",
+      "color": "greenyellow",
+      "size": "5.00",
+      "actual_weight": 9112.889344247102
+    },
+    {
+      "id": "Philippines",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 8594.326124095
+    },
+    {
+      "id": "Myanmar",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 8129.949321136
+    },
+    {
+      "id": "Nigeria",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 6991.31058
+    },
+    {
+      "id": "Iran",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 5621.695307372001
+    },
+    {
+      "id": "Eritrea",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 5559.184281000001
+    },
+    {
+      "id": "Argentina",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 5355.6197701154015
+    },
+    {
+      "id": "Belarus",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 5168.168700752999
+    },
+    {
+      "id": "China, Macao SAR",
+      "color": "pink",
+      "size": "5.00",
+      "actual_weight": 5111.744255340001
+    },
+    {
+      "id": "Liberia",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 4285.6579
+    },
+    {
+      "id": "Sri Lanka",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 3963.8295777212006
+    },
+    {
+      "id": "State of Palestine",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 3852.0134
+    },
+    {
+      "id": "Kuwait",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 3849.5690655850008
+    },
+    {
+      "id": "North Macedonia",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 3362.00907055
+    },
+    {
+      "id": "Oman",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 3197.231367929999
+    },
+    {
+      "id": "Morocco",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 3052.652016649001
+    },
+    {
+      "id": "Ukraine",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 2922.9717974069995
+    },
+    {
+      "id": "Chile",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 2895.7957370532004
+    },
+    {
+      "id": "British Virgin Islands",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 2737.5301
+    },
+    {
+      "id": "Pitcairn",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 2728.963175000001
+    },
+    {
+      "id": "Nepal",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 2206.7862515160004
+    },
+    {
+      "id": "Belize",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 2206.2795343999996
+    },
+    {
+      "id": "Albania",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 2018.1633501
+    },
+    {
+      "id": "Guam",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 1843.2070300000003
+    },
+    {
+      "id": "Trinidad and Tobago",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 1808.1226297033
+    },
+    {
+      "id": "Burkina Faso",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 1614.8490000000002
+    },
+    {
+      "id": "Antigua and Barbuda",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 1492.9048136807
+    },
+    {
+      "id": "Senegal",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 1332.4200896607
+    },
+    {
+      "id": "Paraguay",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 1270.001393466
+    },
+    {
+      "id": "Equatorial Guinea",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 1213.3690000000001
+    },
+    {
+      "id": "Guinea-Bissau",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 1177.9779999999998
+    },
+    {
+      "id": "Eswatini",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 1089.947397526
+    },
+    {
+      "id": "Georgia",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 979.8975417916001
+    },
+    {
+      "id": "Gabon",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 979.0099718999999
+    },
+    {
+      "id": "New Caledonia",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 941.8547564485
+    },
+    {
+      "id": "Tunisia",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 937.111889088
+    },
+    {
+      "id": "Dominica",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 862.493448285
+    },
+    {
+      "id": "Uruguay",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 788.6829884999999
+    },
+    {
+      "id": "Niger",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 741.485265
+    },
+    {
+      "id": "Namibia",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 683.1264123143001
+    },
+    {
+      "id": "Cayman Islands",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 667.4560099999998
+    },
+    {
+      "id": "Montenegro",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 652.177351974
+    },
+    {
+      "id": "Malta",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 614.3690413479
+    },
+    {
+      "id": "Vanuatu",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 610.5981631000001
+    },
+    {
+      "id": "Cabo Verde",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 610.1101355
+    },
+    {
+      "id": "Bahrain",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 584.308420943
+    },
+    {
+      "id": "Pakistan",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 538.185706
+    },
+    {
+      "id": "Bahamas",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 517.5311449999999
+    },
+    {
+      "id": "Fiji",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 481.80584216399996
+    },
+    {
+      "id": "Algeria",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 478.31904010999995
+    },
+    {
+      "id": "Brunei Darussalam",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 428.07443299999994
+    },
+    {
+      "id": "Guyana",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 421.032980706
+    },
+    {
+      "id": "Saint Kitts and Nevis",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 389.01599999999996
+    },
+    {
+      "id": "Faeroe Islands",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 385.005442
+    },
+    {
+      "id": "Tonga",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 369.20039999999995
+    },
+    {
+      "id": "Mauritius",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 365.33472985000003
+    },
+    {
+      "id": "Bangladesh",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 341.84894
+    },
+    {
+      "id": "Mozambique",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 314.908094966
+    },
+    {
+      "id": "Chad",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 286.58627099999995
+    },
+    {
+      "id": "Sao Tome and Principe",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 284.539604731
+    },
+    {
+      "id": "Mali",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 267.8047511
+    },
+    {
+      "id": "Gambia",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 266.03534639
+    },
+    {
+      "id": "Iceland",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 263.86441865800003
+    },
+    {
+      "id": "Turks and Caicos Islands",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 248.31958300000002
+    },
+    {
+      "id": "Qatar",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 226.311472
+    },
+    {
+      "id": "Kiribati",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 215.356
+    },
+    {
+      "id": "Cambodia",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 211.43641864999998
+    },
+    {
+      "id": "Comoros",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 210.059244
+    },
+    {
+      "id": "Moldova",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 201.10587730800003
+    },
+    {
+      "id": "Botswana",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 195.26398093685998
+    },
+    {
+      "id": "Andorra",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 186.713956202
+    },
+    {
+      "id": "Kazakhstan",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 180.187651478
+    },
+    {
+      "id": "Bhutan",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 179.44899999999998
+    },
+    {
+      "id": "Nauru",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 179.066
+    },
+    {
+      "id": "Benin",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 178.22999999999993
+    },
+    {
+      "id": "Suriname",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 177.12592135
+    },
+    {
+      "id": "Grenada",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 155.39547534999997
+    },
+    {
+      "id": "Kyrgyzstan",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 142.61069542
+    },
+    {
+      "id": "Samoa",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 133.628
+    },
+    {
+      "id": "Seychelles",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 116.888864
+    },
+    {
+      "id": "Turkmenistan",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 116.06514399999999
+    },
+    {
+      "id": "San Marino",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 109.40054800000001
+    },
+    {
+      "id": "Gibraltar",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 109.346
+    },
+    {
+      "id": "Saint Pierre and Miquelon",
+      "color": "purple",
+      "size": "5.00",
+      "actual_weight": 98.49499999999999
+    },
+    {
+      "id": "Mongolia",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 93.038652
+    },
+    {
+      "id": "Saint Helena",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 85.034718
+    },
+    {
+      "id": "Somalia",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 73.29981
+    },
+    {
+      "id": "Saint Lucia",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 72.56747576
+    },
+    {
+      "id": "French Polynesia",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 68.8396663052
+    },
+    {
+      "id": "Anguilla",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 67.99960800000001
+    },
+    {
+      "id": "Barbados",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 66.680056394
+    },
+    {
+      "id": "Tajikistan",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 63.859
+    },
+    {
+      "id": "Greenland",
+      "color": "purple",
+      "size": "5.00",
+      "actual_weight": 59.633000005
+    },
+    {
+      "id": "Lesotho",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 45.4682563503
+    },
+    {
+      "id": "Libya",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 45.192425799999995
+    },
+    {
+      "id": "Marshall Islands",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 43.782715
+    },
+    {
+      "id": "Montserrat",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 43.581
+    },
+    {
+      "id": "Curacao",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 42.02507
+    },
+    {
+      "id": "Uzbekistan",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 41.039
+    },
+    {
+      "id": "South Sudan",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 37.469
+    },
+    {
+      "id": "Wallis and Futuna Islands",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 36.185
+    },
+    {
+      "id": "Korea, Democratic People\u2019s Republic",
+      "color": "#e15759",
+      "size": "5.00",
+      "actual_weight": 28.09667
+    },
+    {
+      "id": "Falkland Islands (Malvinas)",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 24.989874
+    },
+    {
+      "id": "Saint-Barthelemy",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 23.26
+    },
+    {
+      "id": "Maldives",
+      "color": "#f28e2c",
+      "size": "5.00",
+      "actual_weight": 22.24228
+    },
+    {
+      "id": "Bermuda",
+      "color": "purple",
+      "size": "5.00",
+      "actual_weight": 21.362744
+    },
+    {
+      "id": "Cook Islands",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 20.083000000000002
+    },
+    {
+      "id": "Sudan",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 19.467828000000004
+    },
+    {
+      "id": "Western Sahara",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 19.246999999999996
+    },
+    {
+      "id": "Iraq",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 17.564999999999998
+    },
+    {
+      "id": "Palau",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 14.644
+    },
+    {
+      "id": "Saint Vincent and the Grenadines",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 8.278773000000001
+    },
+    {
+      "id": "Northern Mariana Islands",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 8.212
+    },
+    {
+      "id": "Solomon Islands",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 7.261442000000001
+    },
+    {
+      "id": "Tuvalu",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 6.273
+    },
+    {
+      "id": "Aruba",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 5.044258783
+    },
+    {
+      "id": "Holy See",
+      "color": "#4e79a7",
+      "size": "5.00",
+      "actual_weight": 3.6239040000000005
+    },
+    {
+      "id": "Mauritania",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 3.216369
+    },
+    {
+      "id": "Micronesia",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 3.0636949999999996
+    },
+    {
+      "id": "Niue",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 2.84111
+    },
+    {
+      "id": "Sint Maarten (Dutch part)",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 2.6698899999999997
+    },
+    {
+      "id": "Azerbaijan",
+      "color": "#8c5c35",
+      "size": "5.00",
+      "actual_weight": 1.7603999999999997
+    },
+    {
+      "id": "Mayotte",
+      "color": "gold",
+      "size": "5.00",
+      "actual_weight": 0.415
+    },
+    {
+      "id": "Tokelau",
+      "color": "mediumturquoise",
+      "size": "5.00",
+      "actual_weight": 0.05644
+    },
+    {
+      "id": "Bonaire",
+      "color": "#59a14f",
+      "size": "5.00",
+      "actual_weight": 0.023
+    }
+  ],
+  "links": [
+    {
+      "source": "Brazil",
+      "target": "Germany"
+    },
+    {
+      "source": "Vietnam",
+      "target": "Germany"
+    },
+    {
+      "source": "Colombia",
+      "target": "United States"
+    },
+    {
+      "source": "Indonesia",
+      "target": "United States"
+    },
+    {
+      "source": "Germany",
+      "target": "United States"
+    },
+    {
+      "source": "Honduras",
+      "target": "Germany"
+    },
+    {
+      "source": "Guatemala",
+      "target": "United States"
+    },
+    {
+      "source": "Peru",
+      "target": "Germany"
+    },
+    {
+      "source": "India",
+      "target": "Italy"
+    },
+    {
+      "source": "Uganda",
+      "target": "Germany"
+    },
+    {
+      "source": "Ethiopia",
+      "target": "Germany"
+    },
+    {
+      "source": "Italy",
+      "target": "Germany"
+    },
+    {
+      "source": "Mexico",
+      "target": "United States"
+    },
+    {
+      "source": "United States",
+      "target": "Canada"
+    },
+    {
+      "source": "Cote d'Ivoire",
+      "target": "Algeria"
+    },
+    {
+      "source": "Belgium",
+      "target": "France"
+    },
+    {
+      "source": "Costa Rica",
+      "target": "United States"
+    },
+    {
+      "source": "Nicaragua",
+      "target": "United States"
+    },
+    {
+      "source": "El Salvador",
+      "target": "United States"
+    },
+    {
+      "source": "Netherlands",
+      "target": "France"
+    },
+    {
+      "source": "Papua New Guinea",
+      "target": "Germany"
+    },
+    {
+      "source": "Kenya",
+      "target": "Germany"
+    },
+    {
+      "source": "Switzerland",
+      "target": "France"
+    },
+    {
+      "source": "Tanzania",
+      "target": "Japan"
+    },
+    {
+      "source": "Cameroon",
+      "target": "Italy"
+    },
+    {
+      "source": "China",
+      "target": "Germany"
+    },
+    {
+      "source": "Poland",
+      "target": "Germany"
+    },
+    {
+      "source": "Canada",
+      "target": "United States"
+    },
+    {
+      "source": "France",
+      "target": "Belgium"
+    },
+    {
+      "source": "Spain",
+      "target": "Portugal"
+    },
+    {
+      "source": "Rwanda",
+      "target": "Switzerland"
+    },
+    {
+      "source": "Austria",
+      "target": "Germany"
+    },
+    {
+      "source": "Sweden",
+      "target": "Denmark"
+    },
+    {
+      "source": "Lao PDR",
+      "target": "Vietnam"
+    },
+    {
+      "source": "United Kingdom",
+      "target": "Ireland"
+    },
+    {
+      "source": "Burundi",
+      "target": "Germany"
+    },
+    {
+      "source": "Guinea",
+      "target": "Morocco"
+    },
+    {
+      "source": "Ecuador",
+      "target": "Colombia"
+    },
+    {
+      "source": "Czech Republic",
+      "target": "Slovakia"
+    },
+    {
+      "source": "Togo",
+      "target": "Morocco"
+    },
+    {
+      "source": "Slovakia",
+      "target": "Hungary"
+    },
+    {
+      "source": "Thailand",
+      "target": "United States"
+    },
+    {
+      "source": "Portugal",
+      "target": "Spain"
+    },
+    {
+      "source": "Finland",
+      "target": "Estonia"
+    },
+    {
+      "source": "Singapore",
+      "target": "Malaysia"
+    },
+    {
+      "source": "Denmark",
+      "target": "Sweden"
+    },
+    {
+      "source": "Congo, Democratic Republic",
+      "target": "Italy"
+    },
+    {
+      "source": "Hungary",
+      "target": "Slovakia"
+    },
+    {
+      "source": "Bulgaria",
+      "target": "Romania"
+    },
+    {
+      "source": "Madagascar",
+      "target": "France"
+    },
+    {
+      "source": "Congo, Republic",
+      "target": "Italy"
+    },
+    {
+      "source": "Panama",
+      "target": "United States"
+    },
+    {
+      "source": "Malaysia",
+      "target": "China"
+    },
+    {
+      "source": "Jamaica",
+      "target": "Japan"
+    },
+    {
+      "source": "Yemen",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "South Africa",
+      "target": "Namibia"
+    },
+    {
+      "source": "Timor-Leste",
+      "target": "Germany"
+    },
+    {
+      "source": "Luxembourg",
+      "target": "Netherlands"
+    },
+    {
+      "source": "Russian Federation",
+      "target": "Ukraine"
+    },
+    {
+      "source": "Estonia",
+      "target": "Russian Federation"
+    },
+    {
+      "source": "Bolivia",
+      "target": "United States"
+    },
+    {
+      "source": "Dominican Republic",
+      "target": "United States"
+    },
+    {
+      "source": "Greece",
+      "target": "Bulgaria"
+    },
+    {
+      "source": "Lebanon",
+      "target": "Armenia"
+    },
+    {
+      "source": "Zambia",
+      "target": "Germany"
+    },
+    {
+      "source": "Zimbabwe",
+      "target": "Germany"
+    },
+    {
+      "source": "Lithuania",
+      "target": "Latvia"
+    },
+    {
+      "source": "United Arab Emirates",
+      "target": "Iran"
+    },
+    {
+      "source": "Slovenia",
+      "target": "Croatia"
+    },
+    {
+      "source": "Venezuela",
+      "target": "United States"
+    },
+    {
+      "source": "Ireland",
+      "target": "United Kingdom"
+    },
+    {
+      "source": "Australia",
+      "target": "New Zealand"
+    },
+    {
+      "source": "Ghana",
+      "target": "Austria"
+    },
+    {
+      "source": "Sierra Leone",
+      "target": "France"
+    },
+    {
+      "source": "Latvia",
+      "target": "Lithuania"
+    },
+    {
+      "source": "Cuba",
+      "target": "Japan"
+    },
+    {
+      "source": "Armenia",
+      "target": "Georgia"
+    },
+    {
+      "source": "Malawi",
+      "target": "Germany"
+    },
+    {
+      "source": "Djibouti",
+      "target": "Ethiopia"
+    },
+    {
+      "source": "Central African Republic",
+      "target": "France"
+    },
+    {
+      "source": "Japan",
+      "target": "Korea, Republic"
+    },
+    {
+      "source": "Saudi Arabia",
+      "target": "Yemen"
+    },
+    {
+      "source": "Turkey",
+      "target": "Syria"
+    },
+    {
+      "source": "Croatia",
+      "target": "Slovenia"
+    },
+    {
+      "source": "China, Hong Kong SAR",
+      "target": "China"
+    },
+    {
+      "source": "Haiti",
+      "target": "Belgium"
+    },
+    {
+      "source": "Korea, Republic",
+      "target": "Japan"
+    },
+    {
+      "source": "Egypt",
+      "target": "Jordan"
+    },
+    {
+      "source": "Israel",
+      "target": "State of Palestine"
+    },
+    {
+      "source": "Romania",
+      "target": "Bulgaria"
+    },
+    {
+      "source": "Bosnia Herzegovina",
+      "target": "Slovenia"
+    },
+    {
+      "source": "Angola",
+      "target": "Portugal"
+    },
+    {
+      "source": "Serbia",
+      "target": "Austria"
+    },
+    {
+      "source": "Cyprus",
+      "target": "Greece"
+    },
+    {
+      "source": "Jordan",
+      "target": "Iraq"
+    },
+    {
+      "source": "Syria",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "Norway",
+      "target": "Sweden"
+    },
+    {
+      "source": "New Zealand",
+      "target": "Australia"
+    },
+    {
+      "source": "Philippines",
+      "target": "Korea, Republic"
+    },
+    {
+      "source": "Myanmar",
+      "target": "China"
+    },
+    {
+      "source": "Nigeria",
+      "target": "United Kingdom"
+    },
+    {
+      "source": "Iran",
+      "target": "Armenia"
+    },
+    {
+      "source": "Eritrea",
+      "target": "Egypt"
+    },
+    {
+      "source": "Argentina",
+      "target": "Uruguay"
+    },
+    {
+      "source": "Belarus",
+      "target": "Russian Federation"
+    },
+    {
+      "source": "China, Macao SAR",
+      "target": "China, Hong Kong SAR"
+    },
+    {
+      "source": "Liberia",
+      "target": "Germany"
+    },
+    {
+      "source": "Sri Lanka",
+      "target": "Maldives"
+    },
+    {
+      "source": "State of Palestine",
+      "target": "Israel"
+    },
+    {
+      "source": "Kuwait",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "North Macedonia",
+      "target": "Montenegro"
+    },
+    {
+      "source": "Oman",
+      "target": "Qatar"
+    },
+    {
+      "source": "Morocco",
+      "target": "Tunisia"
+    },
+    {
+      "source": "Ukraine",
+      "target": "Belarus"
+    },
+    {
+      "source": "Chile",
+      "target": "United States"
+    },
+    {
+      "source": "British Virgin Islands",
+      "target": "Armenia"
+    },
+    {
+      "source": "Pitcairn",
+      "target": "Germany"
+    },
+    {
+      "source": "Nepal",
+      "target": "Japan"
+    },
+    {
+      "source": "Belize",
+      "target": "United States"
+    },
+    {
+      "source": "Albania",
+      "target": "Serbia"
+    },
+    {
+      "source": "Guam",
+      "target": "Austria"
+    },
+    {
+      "source": "Trinidad and Tobago",
+      "target": "Indonesia"
+    },
+    {
+      "source": "Burkina Faso",
+      "target": "Senegal"
+    },
+    {
+      "source": "Antigua and Barbuda",
+      "target": "Belgium"
+    },
+    {
+      "source": "Senegal",
+      "target": "Mauritania"
+    },
+    {
+      "source": "Paraguay",
+      "target": "Uruguay"
+    },
+    {
+      "source": "Equatorial Guinea",
+      "target": "Switzerland"
+    },
+    {
+      "source": "Guinea-Bissau",
+      "target": "Poland"
+    },
+    {
+      "source": "Eswatini",
+      "target": "Mozambique"
+    },
+    {
+      "source": "Georgia",
+      "target": "Armenia"
+    },
+    {
+      "source": "Gabon",
+      "target": "Netherlands"
+    },
+    {
+      "source": "New Caledonia",
+      "target": "Ireland"
+    },
+    {
+      "source": "Tunisia",
+      "target": "Algeria"
+    },
+    {
+      "source": "Dominica",
+      "target": "Italy"
+    },
+    {
+      "source": "Uruguay",
+      "target": "United Kingdom"
+    },
+    {
+      "source": "Niger",
+      "target": "Benin"
+    },
+    {
+      "source": "Namibia",
+      "target": "Angola"
+    },
+    {
+      "source": "Cayman Islands",
+      "target": "United Kingdom"
+    },
+    {
+      "source": "Montenegro",
+      "target": "Serbia"
+    },
+    {
+      "source": "Malta",
+      "target": "Libya"
+    },
+    {
+      "source": "Vanuatu",
+      "target": "Poland"
+    },
+    {
+      "source": "Cabo Verde",
+      "target": "Portugal"
+    },
+    {
+      "source": "Bahrain",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "Pakistan",
+      "target": "India"
+    },
+    {
+      "source": "Bahamas",
+      "target": "Finland"
+    },
+    {
+      "source": "Fiji",
+      "target": "Samoa"
+    },
+    {
+      "source": "Algeria",
+      "target": "France"
+    },
+    {
+      "source": "Brunei Darussalam",
+      "target": "Egypt"
+    },
+    {
+      "source": "Guyana",
+      "target": "Netherlands"
+    },
+    {
+      "source": "Saint Kitts and Nevis",
+      "target": "Germany"
+    },
+    {
+      "source": "Faeroe Islands",
+      "target": "Israel"
+    },
+    {
+      "source": "Tonga",
+      "target": "Poland"
+    },
+    {
+      "source": "Mauritius",
+      "target": "Madagascar"
+    },
+    {
+      "source": "Bangladesh",
+      "target": "United Kingdom"
+    },
+    {
+      "source": "Mozambique",
+      "target": "Ireland"
+    },
+    {
+      "source": "Chad",
+      "target": "United States"
+    },
+    {
+      "source": "Sao Tome and Principe",
+      "target": "France"
+    },
+    {
+      "source": "Mali",
+      "target": "Burkina Faso"
+    },
+    {
+      "source": "Gambia",
+      "target": "Senegal"
+    },
+    {
+      "source": "Iceland",
+      "target": "Sweden"
+    },
+    {
+      "source": "Turks and Caicos Islands",
+      "target": "Indonesia"
+    },
+    {
+      "source": "Qatar",
+      "target": "Iran"
+    },
+    {
+      "source": "Kiribati",
+      "target": "Sweden"
+    },
+    {
+      "source": "Cambodia",
+      "target": "Japan"
+    },
+    {
+      "source": "Comoros",
+      "target": "Spain"
+    },
+    {
+      "source": "Moldova",
+      "target": "France"
+    },
+    {
+      "source": "Botswana",
+      "target": "South Africa"
+    },
+    {
+      "source": "Andorra",
+      "target": "Austria"
+    },
+    {
+      "source": "Kazakhstan",
+      "target": "Kyrgyzstan"
+    },
+    {
+      "source": "Bhutan",
+      "target": "Poland"
+    },
+    {
+      "source": "Nauru",
+      "target": "France"
+    },
+    {
+      "source": "Benin",
+      "target": "France"
+    },
+    {
+      "source": "Suriname",
+      "target": "Guyana"
+    },
+    {
+      "source": "Grenada",
+      "target": "Algeria"
+    },
+    {
+      "source": "Kyrgyzstan",
+      "target": "Uzbekistan"
+    },
+    {
+      "source": "Samoa",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "Seychelles",
+      "target": "France"
+    },
+    {
+      "source": "Turkmenistan",
+      "target": "Indonesia"
+    },
+    {
+      "source": "San Marino",
+      "target": "Poland"
+    },
+    {
+      "source": "Gibraltar",
+      "target": "France"
+    },
+    {
+      "source": "Saint Pierre and Miquelon",
+      "target": "Turkey"
+    },
+    {
+      "source": "Mongolia",
+      "target": "Ireland"
+    },
+    {
+      "source": "Saint Helena",
+      "target": "Germany"
+    },
+    {
+      "source": "Somalia",
+      "target": "Canada"
+    },
+    {
+      "source": "Saint Lucia",
+      "target": "United States"
+    },
+    {
+      "source": "French Polynesia",
+      "target": "United States"
+    },
+    {
+      "source": "Anguilla",
+      "target": "Lebanon"
+    },
+    {
+      "source": "Barbados",
+      "target": "Switzerland"
+    },
+    {
+      "source": "Tajikistan",
+      "target": "Algeria"
+    },
+    {
+      "source": "Greenland",
+      "target": "Italy"
+    },
+    {
+      "source": "Lesotho",
+      "target": "South Africa"
+    },
+    {
+      "source": "Libya",
+      "target": "Italy"
+    },
+    {
+      "source": "Marshall Islands",
+      "target": "North Macedonia"
+    },
+    {
+      "source": "Montserrat",
+      "target": "Switzerland"
+    },
+    {
+      "source": "Curacao",
+      "target": "Aruba"
+    },
+    {
+      "source": "Uzbekistan",
+      "target": "Bulgaria"
+    },
+    {
+      "source": "South Sudan",
+      "target": "Switzerland"
+    },
+    {
+      "source": "Wallis and Futuna Islands",
+      "target": "New Caledonia"
+    },
+    {
+      "source": "Korea, Democratic People\u2019s Republic",
+      "target": "Belgium"
+    },
+    {
+      "source": "Falkland Islands (Malvinas)",
+      "target": "Belgium"
+    },
+    {
+      "source": "Saint-Barthelemy",
+      "target": "Denmark"
+    },
+    {
+      "source": "Maldives",
+      "target": "Sweden"
+    },
+    {
+      "source": "Bermuda",
+      "target": "Germany"
+    },
+    {
+      "source": "Cook Islands",
+      "target": "Sweden"
+    },
+    {
+      "source": "Sudan",
+      "target": "Switzerland"
+    },
+    {
+      "source": "Western Sahara",
+      "target": "United States"
+    },
+    {
+      "source": "Iraq",
+      "target": "Romania"
+    },
+    {
+      "source": "Palau",
+      "target": "Korea, Republic"
+    },
+    {
+      "source": "Saint Vincent and the Grenadines",
+      "target": "Trinidad and Tobago"
+    },
+    {
+      "source": "Northern Mariana Islands",
+      "target": "Micronesia"
+    },
+    {
+      "source": "Solomon Islands",
+      "target": "Ukraine"
+    },
+    {
+      "source": "Tuvalu",
+      "target": "Australia"
+    },
+    {
+      "source": "Aruba",
+      "target": "Curacao"
+    },
+    {
+      "source": "Holy See",
+      "target": "Seychelles"
+    },
+    {
+      "source": "Mauritania",
+      "target": "Mali"
+    },
+    {
+      "source": "Micronesia",
+      "target": "Micronesia"
+    },
+    {
+      "source": "Niue",
+      "target": "Senegal"
+    },
+    {
+      "source": "Sint Maarten (Dutch part)",
+      "target": "Saint Kitts and Nevis"
+    },
+    {
+      "source": "Azerbaijan",
+      "target": "Comoros"
+    },
+    {
+      "source": "Mayotte",
+      "target": "France"
+    },
+    {
+      "source": "Tokelau",
+      "target": "Cote d'Ivoire"
+    },
+    {
+      "source": "Bonaire",
+      "target": "Netherlands"
+    }
+  ]
+}

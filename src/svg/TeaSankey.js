@@ -7,17 +7,20 @@ const TeaSankey = () => {
             style={{
                 display: 'flex',
                 flexDirection: 'column',
-                paddingTop: '50px',
                 position: 'sticky',
-                top: '100px',
+                marginLeft: '10px',
+                marginRight:'50px'
             }}
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}>
             <div class="image-container">
-                <img src={process.env.PUBLIC_URL + LineChart} style={{ zIndex: '-1' }}></img></div>
-
+                <motion.img
+                    src={process.env.PUBLIC_URL + LineChart}
+                    whileHover={{ scale: 1.1 }} 
+                    transition={{ duration: 0.5 }}
+                /></div>
         </motion.div>
     )
 
