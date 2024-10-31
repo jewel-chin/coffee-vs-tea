@@ -35,7 +35,7 @@ const TeaNetwork = () => {
             .attr("points", "0 0, 10 5, 0 10")
             .attr("fill", "black");
 
-        fetch(json_filepath)
+        fetch(process.env.PUBLIC_URL +json_filepath)
             .then((res) => res.json())
             .then((data) => {
                 const nodes = data.nodes;

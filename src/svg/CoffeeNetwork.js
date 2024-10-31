@@ -35,7 +35,7 @@ const CoffeeNetwork = () => {
             .attr("fill", "black");
 
         // Fetch data from JSON
-        fetch(json_filepath)
+        fetch(process.env.PUBLIC_URL +json_filepath)
             .then((res) => res.json())
             .then((data) => {
                 const nodes = data.nodes;
