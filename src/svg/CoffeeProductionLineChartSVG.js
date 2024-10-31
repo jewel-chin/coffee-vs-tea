@@ -9,7 +9,9 @@ const CoffeeProductionLineChartSVG = () => {
         display: 'flex',
         flexDirection: 'column',
         position: 'sticky',
-        top: '60px',
+        alignSelf:'center',
+        justifyContent:'end',
+        top: '100px',
       }}  
       initial={{scale: 0}}
       whileInView={{scale: 0.8}}   
