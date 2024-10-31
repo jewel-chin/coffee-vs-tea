@@ -383,7 +383,7 @@ function App() {
                 </ul>
                 <TeaNetwork />
               </div>
-            ) : currentStepIndex <= 40 ? (
+            ) : currentStepIndex <= 37 ? (
               <div className='two-items' style={{ position: 'sticky', top: '130px', color: 'brown' }} >
                 <CoffeeSankey />
                 <TeaSankey />
@@ -720,11 +720,19 @@ function App() {
                 </p>
               </div>
             </Step>
-          </Scrollama>
+            </Scrollama>
+            </div>
+            <div className="introduction-trade">
 
-
-
-        </div>
+              <h1>Thank you!</h1>
+              <div style={{textAlign:'center'}}>
+                <p> Datasets used: </p>
+                <a href="https://www.kaggle.com/datasets/michals22/coffee-dataset" target="_blank">Coffee ICO dataset. Kaggle.</a> <br></br>
+                <a href="https://www.kaggle.com/datasets/michals22/tea-fao-dataset" target="_blank">Tea FAO dataset. Kaggle.</a> <br></br>
+                <a href="https://resourcetrade.earth" target="_blank">Resource trade data</a>
+              </div>
+              </div>
+        
       </ReactLenis>
     </main>
   );
