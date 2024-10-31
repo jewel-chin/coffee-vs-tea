@@ -5,7 +5,7 @@ const ComparisonProductionStackedPercentageBarChartSVG = () => {
     
     return (
         <motion.div 
-        style={{ alignSelf:'end',paddingRight:'1em' }}
+        style={{ alignSelf:'center',paddingRight:'1em' }}
         initial={{scale: 0}}
         whileInView={{scale: 1}}   
         viewport={{ once: true }} 
