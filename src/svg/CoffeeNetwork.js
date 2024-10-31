@@ -6,25 +6,15 @@ const CoffeeNetwork = () => {
     const svgRef = useRef();
     var tooltip_ref = useRef(null);
     let tooltip_tag = "test";
-    const [dimensions, setDimensions] = useState({
-        width: window.innerWidth,
-        height: window.innerHeight,
-    });
+    const width= window.innerWidth;
+    const height= window.innerHeight;
 
     useEffect(() => {
-        const handleResize = () => {
-            setDimensions({
-                width: window.innerWidth * 0.9,
-                height: window.innerHeight * 0.9,
-            });
-        };
-
-        window.addEventListener("resize", handleResize);
 
         const svg = d3.select(svgRef.current)
-            .attr("width", dimensions.width)
-            .attr("height", dimensions.height)
-            .attr("viewBox", `0 0 ${dimensions.width} ${dimensions.height}`);
+            .attr("width", width)
+            .attr("height", height)
+            .attr("viewBox", `0 0 ${width} ${height}`);
 
         // Clear previous elements before re-adding
         svg.selectAll("*").remove();
@@ -104,15 +94,15 @@ const CoffeeNetwork = () => {
 
                 // Set up the force simulation
                 const simulation = d3.forceSimulation(nodes)
-                    .force("center", d3.forceCenter(dimensions.width / 2, dimensions.height / 2))
+                    .force("center", d3.forceCenter(width / 2, height / 2))
                     .force("charge", d3.forceManyBody().strength(-4)) // Adjust repulsion strength
                     .force("link", d3.forceLink().id((d) => d.id).links(links))
                     .force("collide", d3.forceCollide()) // Prevent nodes from getting too close
 
                     .on("tick", () => {
                         // Define boundaries
-                        const xMax = dimensions.width;
-                        const yMax = dimensions.height;
+                        const xMax = width;
+                        const yMax = height;
 
                         nodeSelection
                             .attr("cx", (d) => {
@@ -131,15 +121,15 @@ const CoffeeNetwork = () => {
                                 .attr("y2", (d) => d.target.y);
                     });
 
-                function dragStart(event, d) {
-                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                function dragStart(d) {
+                    simulation.alphaTarget(0.3).restart();
                     d.fx = d.x;
                     d.fy = d.y;
                 }
 
                 function drag(event, d) {
-                    d.fx = event.x * 1.3;
-                    d.fy = event.y * 1.3;
+                    d.fx = event.x * 1.2;
+                    d.fy = event.y * 1.2;
                 }
 
                 function dragEnd(event, d) {
@@ -148,18 +138,11 @@ const CoffeeNetwork = () => {
                     d.fy = null;
                 }
 
-                // Update simulation center on resize
-                simulation.force("center", d3.forceCenter(dimensions.width / 2, dimensions.height / 2));
-
-
-
-
                 // Reset function
                 const resetSimulation = () => {
-                    // Reset node positions to initial positions
                     nodes.forEach((node) => {
-                        node.x = Math.random() * dimensions.width;
-                        node.y = Math.random() * dimensions.height;
+                        node.x = Math.random() * width;
+                        node.y = Math.random() * height;
                     });
                     simulation.nodes(nodes);
                     simulation.alpha(0.6).restart(); // Restart simulation
@@ -181,12 +164,7 @@ const CoffeeNetwork = () => {
                 }
             });
 
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-
-        };
-    }, [dimensions]);
+    }, []);
 
 
     return (

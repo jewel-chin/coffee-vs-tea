@@ -152,15 +152,17 @@ function App() {
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'space-between',
-                width: '70vw',
                 marginTop: '50px',
                 marginBottom: '400px',
+                textAlign:'center',
+                width:'60vw'
               }}>
                 <div
                   className='comment coffee'
                   style={{
                     zIndex: 999,
                     opacity: currentStepIndex === 7 ? 1 : 0.2,
+                    width: '20vw'
                   }}
                 >
 
@@ -178,6 +180,7 @@ function App() {
                   style={{
                     zIndex: 999,
                     opacity: currentStepIndex === 7 ? 1 : 0.2,
+                    width: '20vw'
                   }}
                 >
 
@@ -189,7 +192,7 @@ function App() {
                     <li>Sri Lanka (37 Million Tonnes)</li>
                     <li>Turkey (30 Million Tonnes)</li>
                   </ol>
-              </div>
+                </div>
               </div>
             </Step>
             <Step data={8} key={8}>
@@ -225,13 +228,12 @@ function App() {
             </Step>
             <Step data={10} key={10}>
               <div
-                className='comment comparison position-left'
+                className='comment comparison'
                 style={{
                   zIndex: 999,
                   opacity: currentStepIndex === 10 ? 1 : 0.2,
                   marginBottom: '900px',
                   color: 'rgb(82, 42, 8)',
-                  width: '400px',
                 }}
               >
                 <p><b>Other than in 1990,</b><br></br> Coffee production has consistently remained below tea production every year, <br></br>
@@ -240,13 +242,12 @@ function App() {
             </Step>
             <Step data={11} key={11}>
               <div
-                className='comment comparison position-left'
+                className='comment comparison'
                 style={{
                   zIndex: 999,
                   opacity: currentStepIndex === 11 ? 1 : 0.2,
                   marginBottom: '900px',
                   color: 'rgb(82, 42, 8)',
-                  width: '400px',
                 }}
               >
                 <p>The disparity in production volumes may be attributed to the differing cultivation challenges associated with coffee and tea.
@@ -262,7 +263,6 @@ function App() {
                   opacity: currentStepIndex === 12 ? 1 : 0.2,
                   marginBottom: '900px',
                   color: 'rgb(82, 42, 8)',
-                  width: '400px',
                 }}
               >
                 <p>Despite their differences, both coffee and tea boast <b>rich histories of competition in their production.</b></p>
@@ -382,13 +382,13 @@ function App() {
                 </ul>
                 <TeaNetwork />
               </div>
-            ) :currentStepIndex <= 35 ? (
+            ) : currentStepIndex <= 40 ? (
               <div className='two-items' style={{ position: 'sticky', top: '130px', color: 'brown' }} >
                 <CoffeeSankey />
                 <TeaSankey />
               </div>
-            ):
-<></>          }
+            ) :
+              <></>}
 
           <Scrollama onStepEnter={onStepEnter} offset={0.5}>
 
@@ -499,7 +499,7 @@ function App() {
                 }}
               >
                 <p>To further understand our key players in Coffee and Tea,<br></br>
-                  let's take a look at their <b style={{fontSize:'1.4em'}}>Sankey Diagrams.</b>
+                  let's take a look at their <b style={{ fontSize: '1.4em' }}>Sankey Diagrams.</b>
                 </p>
               </div>
             </Step>
@@ -513,9 +513,9 @@ function App() {
                   marginBottom: '500px',
                 }}
               >
-                <p>This <b style={{fontSize:'1.4em'}}>Sankey diagram</b> illustrates the flow of <b>Coffee</b>,
-                <br></br> highlighting the <b style={{fontSize:'1.4em'}}>top 9 Exporters and Importers</b> as of 2019.
-  
+                <p>This <b style={{ fontSize: '1.4em' }}>Sankey diagram</b> illustrates the flow of <b>Coffee</b>,
+                  <br></br> highlighting the <b style={{ fontSize: '1.4em' }}>top 9 Exporters and Importers</b> as of 2019.
+
                 </p>
               </div>
             </Step>
@@ -526,13 +526,12 @@ function App() {
                   zIndex: 999,
                   opacity: currentStepIndex === 25 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                    Remember our top producers of Coffee: Brazil, Vietnam, Colombia, Indonesia, Ethiopia?<br></br>
-                    <b>All of them, except Ethiopia, are amongst the top exporters of Coffee, with similar ranking.</b>
-  
+                  Remember our top producers of Coffee: Brazil, Vietnam, Colombia, Indonesia, Ethiopia?<br></br>
+                  <b>All of them, except Ethiopia, are amongst the top exporters of Coffee, with similar ranking.</b>
+
                 </p>
               </div>
             </Step>
@@ -544,12 +543,13 @@ function App() {
                   zIndex: 999,
                   opacity: currentStepIndex === 26 ? 1 : 0.2,
                   marginBottom: '500px',
+
                 }}
               >
                 <p>
-                    Meanwhile, for <b>Tea</b>, the top producers are: China, India, Kenya, Sri Lanka, Turkey. <br></br>
-                    <b>We see that China, Sri Lanka, Kenya and India are among the top exporters of tea.</b>
-  
+                  Meanwhile, for <b>Tea</b>, the top producers are: China, India, Kenya, Sri Lanka, Turkey. <br></br>
+                  <b>We see that China, Sri Lanka, Kenya and India are among the top exporters of tea.</b>
+
                 </p>
               </div>
             </Step>
@@ -560,11 +560,10 @@ function App() {
                   zIndex: 999,
                   opacity: currentStepIndex === 27 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                While the leading producers are also significant exporters, there’s something interesting and different here for <b>Tea</b>.
+                  While the leading producers are also significant exporters, there’s something interesting and different here for <b>Tea</b>.
 
                 </p>
               </div>
@@ -577,12 +576,11 @@ function App() {
                   zIndex: 999,
                   opacity: currentStepIndex === 28 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                Despite China’s production dominance over India, and India ranking second in production, 
-                <b> neither holds the top spot in exports.</b> 
+                  Despite China’s production dominance over India, and India ranking second in production,
+                  <b> neither holds the top spot in exports.</b>
                 </p>
               </div>
             </Step>
@@ -593,60 +591,59 @@ function App() {
                   zIndex: 999,
                   opacity: currentStepIndex === 29 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                Instead, <b style={{fontSize:'1.4em'}}>Kenya</b>, <b>a distant third in production, surpasses both in export volume.</b> <br></br>
-                This strong contrast indicates that
-                <b> China and India are absorbing much of their production domestically, emphasizing their high internal demand.</b>
+                  Instead, <b style={{ fontSize: '1.4em' }}>Kenya</b>, <b>a distant third in production, surpasses both in export volume.</b> <br></br>
+                  This strong contrast indicates that
+                  <b> China and India are absorbing much of their production domestically, emphasizing their high internal demand.</b>
                 </p>
               </div>
             </Step>
             <Step data={30} key={30}>
               <div
-                className='comment coffee'
+                className='comment comparison'
                 style={{
                   zIndex: 999,
                   opacity: currentStepIndex === 30 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                <b>Another striking difference is the distribution of coffee imports</b>,<br></br> 
-                which are heavily concentrated in Europe (blue) and North America (purple), with smaller flows to Eastern and Southeastern Asia (red). 
+                  <b>Another striking contrast lies in the structure of coffee and tea markets.</b><br></br>
                 </p>
               </div>
             </Step>
             <Step data={31} key={31}>
               <div
-                className='comment tea'
+                className='comment coffee'
                 style={{
                   zIndex: 999,
                   opacity: currentStepIndex === 31 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                <b>In contrast, tea trade shows greater diversification and balance</b>, 
-                <br></br>with demand spread across Central and Southern Asia (orange), Europe (blue), North America (purple), and Northern Africa and Western Asia (brown). 
-                </p>
+                  Coffee imports are heavily concentrated among dominant players, with Europe (blue) and North America (purple) leading by wide margins, <br></br>
+                  followed by smaller flows to Eastern and Southeastern Asia. <br></br>
+                  <b>This creates a market where a few regions control the majority of coffee trade.</b>                </p>
               </div>
             </Step>
             <Step data={32} key={32}>
               <div
-                className='comment comparison'
+                className='comment tea'
                 style={{
                   zIndex: 999,
                   opacity: currentStepIndex === 32 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                <b>This indicates a more regionalized preference for coffee, while tea trade enjoys a broader global reach.</b>
+                  <b>In comparison, the tea market shows a more balanced and diverse demand across multiple regions</b>,
+                  <br></br> including Central and Southern Asia (orange), Europe (blue), North America (purple), and Northern Africa and Western Asia (brown).
+                  <br></br> Here, no single region or country monopolizes the trade.
+                  <br></br><b>Instead, the tea market operates on a more level playing field, <br></br>
+                    reflecting a globally distributed demand that contrasts sharply with the concentrated powerhouses driving coffee imports.</b>
                 </p>
               </div>
             </Step>
@@ -658,32 +655,73 @@ function App() {
                   zIndex: 999,
                   opacity: currentStepIndex === 33 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                  As for countries with <b>dual power</b>, as in holding a place as a <b>top exporter</b> and a <b>top importer</b>
+                  For countries with <b>dual power — holding positions as both top exporters and top importers,</b>
                 </p>
               </div>
             </Step>
-            {/* <Step data={30} key={30}>
+
+            <Step data={34} key={34}>
+              <div
+                className='comment coffee position-left'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 34 ? 1 : 0.2,
+                  marginBottom: '500px',
+                }}
+              >
+                <p>
+                  <b style={{ fontSize: '1.4em' }}>Germany</b> stands out as the second-largest importer of coffee, re-exporting substantial volumes to other major importers.
+                </p>
+              </div>
+            </Step>
+
+            <Step data={35} key={35}>
+              <div
+                className='comment tea position-right'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 35 ? 1 : 0.2,
+                  marginBottom: '500px',
+                }}
+              >
+                <p>Meanwhile in the tea trade, <br></br>
+                  <b style={{ fontSize: '1.4em' }}> Kenya</b> holds a similarly unique position as the top exporter while also importing from other leading exporters.
+                </p>
+              </div>
+            </Step>
+
+            <Step data={36} key={36}>
+              <div
+                className='comment tea position-right'
+                style={{
+                  zIndex: 999,
+                  opacity: currentStepIndex === 36 ? 1 : 0.2,
+                  marginBottom: '500px',
+                }}
+              >
+                <p>Additionally, <b style={{ fontSize: '1.4em' }}>Kenya and the United Arab Emirates</b> occupy an intriguing dynamic, engaging in reciprocal trade where they import and export tea to one another.
+                </p></div>
+            </Step>
+            <Step data={37} key={37}>
               <div
                 className='comment comparison'
                 style={{
                   zIndex: 999,
-                  opacity: currentStepIndex === 30 ? 1 : 0.2,
+                  opacity: currentStepIndex === 37 ? 1 : 0.2,
                   marginBottom: '500px',
-                  width:'40vw'
                 }}
               >
                 <p>
-                
+                  This dual role exemplifies the <b>complexity of trade flows within these countries</b>, reinforcing their strategic influence in both importing and exporting markets.
                 </p>
               </div>
-            </Step> */}
+            </Step>
           </Scrollama>
-                 
-  
+
+
 
         </div>
       </ReactLenis>

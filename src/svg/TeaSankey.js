@@ -16,7 +16,7 @@ const TeaSankey = () => {
             viewport={{ once: true }}
             transition={{ duration: 1 }}>
             <div class="image-container">
-                <motion.img
+            <motion.img
                     src={process.env.PUBLIC_URL + LineChart}
                     whileHover={{ scale: 1.1 }} 
                     transition={{ duration: 0.5 }}

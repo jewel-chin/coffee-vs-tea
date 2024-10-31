@@ -4,11 +4,12 @@ const ComparisonProductionPieSVG = () => {
 
     return (
         <motion.div
-            style={{ alignSelf:'end',padding:'1em' }}
+            style={{ alignSelf:'end',paddingRight:'1em' }}
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
+            whileHover={{ scale: 1.1 }} 
         >
             <div
                 style={{
@@ -40,7 +41,7 @@ const ComparisonProductionPieSVG = () => {
                 </text>
             </svg>
 
-            <h4 style={{ textAlign: 'center', marginTop:'1em',transform:'scale(0.9)' }}>Pie Chart of Coffee and Tea's Production Volumes</h4>
+            <h4 style={{ textAlign: 'center', marginTop:'1em' }}>Pie Chart of Coffee and Tea's Production Volumes</h4>
         </motion.div>
 
     )

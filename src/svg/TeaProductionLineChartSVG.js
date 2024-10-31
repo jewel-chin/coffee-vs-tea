@@ -18,8 +18,11 @@ const TeaProductionLineChartSVG = () => {
       viewport={{ once: true }}
       transition={{ duration: 1 }}>
       <div class="image-container">
-        <img src={process.env.PUBLIC_URL + LineChart} style={{ zIndex: '-2'}}></img>
-
+      <motion.img
+                    src={process.env.PUBLIC_URL + LineChart}
+                    whileHover={{ scale: 1.1 }} 
+                    transition={{ duration: 0.5 }}
+                />
       </div>
       {/* <svg width="960" height="600" id="coffee-production-line-chart">
   <g fill="none" font-family="sans-serif" font-size="10" text-anchor="middle">

@@ -142,6 +142,8 @@ h2{
   padding: 0.5em;
   border-radius: 1em;
   color: #FAF9F6;
+  width:40vw;
+
 }
 
 .comment.coffee {
@@ -181,4 +183,5 @@ p {
 .position-right{
   margin-right: 5em;
   margin-left:auto;
+
 }

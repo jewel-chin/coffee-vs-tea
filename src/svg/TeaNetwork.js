@@ -7,25 +7,16 @@ const TeaNetwork = () => {
     var tooltip_ref = useRef(null);
     let tooltip_tag = "test";
 
-    const [dimensions, setDimensions] = useState({
-        width: window.innerWidth,
-        height: window.innerHeight,
-    });
+    const width= window.innerWidth;
+    const height= window.innerHeight;
 
     useEffect(() => {
-        const handleResize = () => {
-            setDimensions({
-                width: window.innerWidth * 0.9,
-                height: window.innerHeight * 0.9,
-            });
-        };
 
-        window.addEventListener("resize", handleResize);
 
         const svg = d3.select(svgRef.current)
-            .attr("width", dimensions.width)
-            .attr("height", dimensions.height)
-            .attr("viewBox", `0 0 ${dimensions.width} ${dimensions.height}`);
+            .attr("width", width)
+            .attr("height", height)
+            .attr("viewBox", `0 0 ${width} ${height}`);
 
         svg.selectAll("*").remove(); // Clear previous elements
 
@@ -96,12 +87,12 @@ const TeaNetwork = () => {
                     });
 
                 const simulation = d3.forceSimulation(nodes)
-                    .force("center", d3.forceCenter(dimensions.width / 2, dimensions.height / 2))
+                    .force("center", d3.forceCenter(width / 2, height / 2))
                     .force("charge", d3.forceManyBody().strength(-4))
                     .force("link", d3.forceLink().id(d => d.id).links(links))
                     .on("tick", () => {
-                        const xMax = dimensions.width;
-                        const yMax = dimensions.height;
+                        const xMax = width;
+                        const yMax = height;
                         nodeSelection
                             .attr("cx", (d) => d.x = Math.max(d.size, Math.min(xMax - d.size, d.x)))
                             .attr("cy", (d) => d.y = Math.max(d.size, Math.min(yMax - d.size, d.y)));
@@ -112,8 +103,8 @@ const TeaNetwork = () => {
                             .attr("y2", d => d.target.y);
                     });
 
-                function dragStart(event, d) {
-                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                function dragStart(d) {
+                    simulation.alphaTarget(0.3).restart();
                     d.fx = d.x;
                     d.fy = d.y;
                 }
@@ -134,8 +125,8 @@ const TeaNetwork = () => {
                     nodes.forEach((node) => {
                         node.fx = null;
                         node.fy = null;
-                        node.x = Math.random() * dimensions.width;
-                        node.y = Math.random() * dimensions.height;
+                        node.x = Math.random() * width;
+                        node.y = Math.random() * height;
                     });
                     simulation.alpha(1).restart();
                 };
@@ -152,10 +143,10 @@ const TeaNetwork = () => {
                 };
             });
 
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, [dimensions]);
+        // return () => {
+        //     window.removeEventListener("resize", handleResize);
+        // };
+    }, []);
 
     return (
         <div>
