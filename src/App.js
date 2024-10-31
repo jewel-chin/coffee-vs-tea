@@ -15,13 +15,9 @@ import CoffeeNetwork from './svg/CoffeeNetwork';
 import TeaNetwork from './svg/TeaNetwork';
 function App() {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
-  const [currentStepIndexSecond, setCurrentStepIndexSecond] = useState(0);
 
   const onStepEnter = ({ data }) => {
     setCurrentStepIndex(data);
-  };
-  const onStepEnterSecond = ({ data }) => {
-    setCurrentStepIndexSecond(data);
   };
 
   const { scrollYProgress } = useScroll();
@@ -30,11 +26,16 @@ function App() {
     <main>
 
       <ReactLenis root>
-        <motion.div className="progress-bar" style={{ scaleX: scrollYProgress }} />
-
+      <motion.div
+        className="progress-bar"
+        style={{
+          scaleX: scrollYProgress,
+          background:currentStepIndex >15?'mediumblue':'brown'
+        }}
+      />
         <div className="introduction">
-          <div><h1 className="coffee-h1">Coffee</h1><h1 className='versus-h1'>&nbsp;vs&nbsp;</h1><h1 class="tea-h1">Tea</h1></div>
-          <span>( Data Visualisation SC4024 )</span>
+          <div><h1 className="coffee-h1">Coffee</h1><h1 className='versus-h1'>&nbsp;or&nbsp;</h1><h1 class="tea-h1">Tea</h1><h1 className='versus-h1'>&nbsp;?</h1></div>
+          <span>( Data Visualisation SC4024, by Jewel Chin )</span>
         </div>
         <div className="introduction-production">
           <h1 className="introduction-production-h1">#Production</h1>
@@ -348,7 +349,7 @@ function App() {
 
 
 
-                <ul className="comment comparison" style={{ listStyle: 'none', transform: 'scale(0.8)', position: 'absolute', left: 0 }}>
+                <ul className="comment comparison" style={{ listStyle: 'none', transform: 'scale(0.8)', position: 'absolute', left: 0, width:'max-content' }}>
                   <li><b style={{ textDecoration: 'underline' }}>Legend:</b></li>
                   <li><b style={{ color: '#59a14f' }}>Latin America and the Caribbean</b> </li>
                   <li><b style={{ color: '#e15759' }}>Eastern and South-Eastern Asia (excl. China)</b> </li>
@@ -367,7 +368,7 @@ function App() {
             ) : currentStepIndex <= 22 ? (
               <div style={{ position: 'sticky', top: '10px' }}>
 
-                <ul className="comment comparison" style={{ listStyle: 'none', transform: 'scale(0.8)', position: 'absolute', left: 0 }}>
+                <ul className="comment comparison" style={{ listStyle: 'none', transform: 'scale(0.8)', position: 'absolute', left: 0, width:'max-content' }}>
                   <li><b style={{ textDecoration: 'underline' }}>Legend:</b></li>
                   <li><b style={{ color: '#59a14f' }}>Latin America and the Caribbean</b> </li>
                   <li><b style={{ color: '#e15759' }}>Eastern and South-Eastern Asia (excl. China)</b> </li>
@@ -398,7 +399,7 @@ function App() {
                 style={{
                   zIndex: 999,
                   opacity: currentStepIndex === 16 ? 1 : 0.2,
-                  marginTop: '50px',
+                  marginTop: '-100px',
                   marginBottom: '500px',
                 }}
               >
@@ -408,7 +409,7 @@ function App() {
             </Step>
             <Step data={17} key={17}>
               <div
-                className='comment coffee'
+                className='comment comparison'
                 style={{
                   zIndex: 999,
                   opacity: currentStepIndex === 17 ? 1 : 0.2,
