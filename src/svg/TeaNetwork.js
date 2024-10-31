@@ -63,6 +63,7 @@ const TeaNetwork = () => {
                     .append("circle")
                     .attr("r", (d) => d.size)
                     .attr("fill", (d) => d.color)
+                    .attr('class', (d) => "circle-" + d.id + "-" + d.size)
                     .call(d3.drag()
                         .on("start", dragStart)
                         .on("drag", drag)
@@ -74,7 +75,6 @@ const TeaNetwork = () => {
                         const split_class_name = target_class_name.split("-");
                         const country = split_class_name[1];
                         tooltip_tag = findActualWeightById(country);
-                        console.log(tooltip_tag)
                         if (tooltip_tag !== null) {
                             tooltip_ref.current.innerHTML = tooltip_tag;
                             tooltip_ref.current.style.opacity = 1;
@@ -150,7 +150,7 @@ const TeaNetwork = () => {
 
     return (
         <div>
-            <div className="tooltip" ref={tooltip_ref} style={{ position: "absolute", width: 'max-content', opacity: 0, backgroundColor: "white", border: "1px solid #333", borderRadius: "4px", padding: '4px' }}></div>
+            <div className="tooltip" ref={tooltip_ref} style={{ position: "absolute", width: 'max-content', opacity: 1, backgroundColor: "white", border: "1px solid #333", borderRadius: "4px", padding: '4px' }}></div>
             <svg ref={svgRef}></svg>
         </div>
     )
